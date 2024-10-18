@@ -41,10 +41,10 @@ body {
 .header .menu-icon .navicon {
     background: #fffcfc;
     display: block;
-    height: 2px;
+    height: 1px;
     position: relative;
     transition: background .2s ease-out;
-    width: 18px;
+    width: 90px;
 }
   
 .header .menu-icon .navicon:before,
@@ -59,11 +59,11 @@ body {
 }
   
 .header .menu-icon .navicon:before {
-    top: 5px;
+    top: 20px;
 }
   
 .header .menu-icon .navicon:after {
-    top: -5px;
+    top: -20px;
 }
   
 .header .menu-btn {
