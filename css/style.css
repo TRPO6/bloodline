@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 102px;
+  background: #0c1416;
+  color: white;
+}
+.header .container {
+  background: pink;
+}
+
+.main {
+  background: aqua;
+  min-height: calc(100vh - 513px);
+}
+
+.footer {
+  height: 411px;
+  background: #0c1416;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
