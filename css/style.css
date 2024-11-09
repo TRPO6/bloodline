@@ -9,12 +9,19 @@ body {
 }
 
 .header {
-  height: 102px;
   background: #0c1416;
   color: white;
 }
 .header .container {
-  background: pink;
+  height: 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  display: flex;
+  gap: 18px;
+  align-items: center;
 }
 
 .main {
