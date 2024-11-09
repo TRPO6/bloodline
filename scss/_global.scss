@@ -10,11 +10,18 @@ body {
 
 
 .header {
-    height: 102px;
     background: #0c1416;
     color: white;
     .container {
-        background: pink;
+        height: 102px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        gap: 18px;
+        align-items: center;
     }
 }
 
