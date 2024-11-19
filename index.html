@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bloodline </title> 
     <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap" rel="stylesheet" />
 </head>
 <body>
     <header class="header">
@@ -16,7 +21,6 @@
                 <div class="logo__site-name">
                     Bloodline
                 </div>
-        
             </div>
             <div class="header__nav"> 
                 Меню
@@ -24,52 +28,67 @@
         </div>
     </header>
     <main class="main">
-
         <section class="hero"> 
-
             <div class="container">
-                hero
-
+                <div class="hero__wrap">
+                    <img src="./asset/img/hero/background.jpg">
+                </div>
+                <div class="hero__info">
+                    <h2 class="hero__title">Они не могут просить помощи, но нуждаются в ней так же, как и мы</h2>
+                    <a href="#" class="button">Стать донором</a>
+                </div>
             </div> 
         </section>
 
         <section class="version">
             <div class="container">
-                Выберете свой вариант:
-                <div class="photo_1">
-                    <img src="/asset/img/probirka_1.svg">
-                    Нужна кровь
-                    <img src="/asset/img/probirka_2.svg">
-                    Стать донором
+        
+                <div class="version__row">
+                    <div class="version__column">
+                        <img src="./asset/img/probirka_1.svg">
+                        <span class="version__line"></span>
+                        <div class="version__title">Стать донором</div>
+                        <div class="version__describe">Хотите сделать доброе дело и спасти жизнь? Узнайте больше о донорстве крови для животных!</div>
+                        <a href="#" class="button">Подробнее</a>
+                    </div>
+                    <div class="version__column">
+                        <img src="./asset/img/probirka_2.svg">
+                        <span class="version__line version__line_blue"></span>
+                        <div class="version__title">Нужна кровь</div>
+                        <div class="version__describe">Хотите сделать доброе дело и спасти жизнь? Узнайте больше о донорстве крови для животных!</div>
+                        <a href="#" class="button">Подробнее</a>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="info">
-            <div class="container">
-                Кошечка
-                <div class="photo_2"> <img src="/asset/img/talk_cat.svg"> </div>
             </div>
         </section>
 
         <section class="important">
             <div class="container">
-                Почему это важно
-                <div class="photo_3"> 
-                    <img src="/asset/img/icon_1.svg"> 
-                    <img src="/asset/img/probirka_2.svg">
+                    <div class="why__title">Почему ваш питомец может стать донором и помочь другим животным?</div>
+                    <div class="why__row">
+                    <div class="why__column">
+                        <img src="./asset/img/icon_1.svg">
+                        <div class="why__titleb">Спасти жизни</div>
+                        <div class="why__describe">Донорская кровь может спасти жизни животным, которые пострадали от травм, операций или страдают от серьезных заболеваний.</div>
+                        <span class="version__line"></span>
+                    </div>
+                    <div class="why__column">
+                        <img src="./asset/img/icon_2.svg">
+                        <div class="why__titleb">Мониторинг здоровья</div>
+                        <div class="why__describe">Регулярные ветеринарные осмотры и бесплатный анализ крови помогут вам спасти жизни не только других животных, но и вашего питомца!</div>
+                        <span class="version__line"></span>
+                    </div>
                 </div>
-            </div>
         </section>
 
         <section class="donors">
             <div class="container">
                 Кто может стать донором?
                 <div class="pgoto_4">
-                    <img src="/asset/img/draw-dog.svg">
-                    <img src="/asset/img/draw-cat.svg">
-                    <img src="/asset/img/draw-rabbit.svg">
-                    <img src="/asset/img/draw-parrot.svg">
+                    <img src="./asset/img/draw-dog.svg">
+                    <img src="./asset/img/draw-cat.svg">
+                    <img src="./asset/img/draw-rabbit.svg">
+                    <img src="./asset/img/draw-parrot.svg">
                 </div>
             </div>
         </section>
@@ -87,7 +106,7 @@
             <div class="container">
                 О нас
                 <div>
-                    <img src="/asset/img/big-logosvg.svg">
+                    <img src="./asset/img/big-logosvg.svg">
                 </div>
             </div>
         </section>
@@ -128,7 +147,7 @@
                 
                 <div class="footer__logo">
                     <div class="footer__logo_img">
-                        <img src="/asset/img/logo.svg" alt="логотип"> 
+                        <img src="./asset/img/logo.svg" alt="логотип"> 
                     </div>
                     <div class="footer__logo_site-name">
                         Bloodline
