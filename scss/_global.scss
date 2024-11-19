@@ -1,37 +1,41 @@
 body {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
 
-.container {
-    width: 1440px;
-    margin: 0 auto;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: $white;
 }
 
-
-.header {
-    background: #0c1416;
-    color: white;
-    .container {
-        height: 102px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .logo {
-        display: flex;
-        gap: 18px;
-        align-items: center;
-    }
+.container {
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .main {
-    background: aqua;
-    min-height: calc(100vh - 513px);
+  min-height: calc(100vh - 513px);
 }
 
-.footer {
-    height: 411px;
-    background: #0c1416;
-    color: white;
+.btn {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: $primary;
+  color: $white;
+  padding: 15px 20px;
+  border-radius: 42px;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .btn {
+    transition: background-color 0.5s ease-in-out;
+    &:hover {
+      background-color: $primaryHover;
+    }
+  }
 }
