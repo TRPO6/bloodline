@@ -1,0 +1,21 @@
+.header {
+    background: black;
+    color: white;
+    .container {
+        height: 102px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+
+        &__site-name{
+            font-size: 64px;
+            font-family: 'Imperial Script', cursive;
+            
+        }
+    }
+}
