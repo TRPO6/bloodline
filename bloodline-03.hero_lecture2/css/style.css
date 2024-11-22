@@ -1,0 +1,547 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fff;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  min-height: calc(100vh - 513px);
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #A80021;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 42px;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .btn {
+    transition: background-color 0.5s ease-in-out;
+  }
+  .btn:hover {
+    background-color: #DD002C;
+  }
+}
+.header {
+  background: #000;
+  color: #fff;
+}
+.header .container {
+  height: 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.header .logo__site-name {
+  font-size: 64px;
+  line-height: 77px;
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.front .header .container {
+  background-image: url(../asset/img/hero/background.jpg);
+  background-position: top center;
+}
+
+.footer {
+  top: 3935px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 411px;
+  width: 100%; /* Занимает всю ширину */
+  background: #0c1416;
+  color: white;
+}
+
+.hero .container {
+  height: 881px;
+  background-image: url(../../asset/img/hero/background.jpg);
+  background-position: bottom center;
+  position: relative;
+}
+.hero__wrapper {
+  width: 466px;
+  height: 215px;
+  position: absolute;
+  top: 262px;
+  right: 50px;
+}
+.hero__text {
+  text-align: right;
+  color: #fff;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 700;
+  letter-spacing: 2.16;
+  padding-bottom: 38px;
+}
+.hero__wrapper-btn {
+  display: flex;
+  justify-content: center;
+}
+
+/* Информация о донорстве */
+
+.donor__card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 207px;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 1440px;
+  padding-top: 58px;
+  padding-bottom: 66px;
+}
+
+.donor__container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 1368px;
+}
+
+.donor__container1:nth-child(1) {
+  margin-left: -28px;
+}
+
+.donor__container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 737px;
+}
+
+.content__wrapper {
+  flex: 0 0 auto;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.pets__heading {
+  box-sizing: border-box;
+  width: 665px;
+  padding: 0;
+  margin: 0;
+  font: italic 1000 36px Mulish, sans-serif;
+  color: black;
+  text-align: center;
+  letter-spacing: 1.8px;
+  white-space: pre-wrap;
+}
+
+.long__text {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-top: 41px;
+  font: 600 20px Mulish, sans-serif;
+  color: black;
+  text-align: left;
+  letter-spacing: 1px;
+  white-space: pre-wrap;
+}
+
+.image-container {
+  box-sizing: border-box;
+  display: block;
+  width: 608px;
+  max-width: initial;
+  height: 764px;
+  border: none;
+  object-fit: cover;
+}
+
+.donor__container1:nth-child(2) {
+  margin-top: -87px;
+  margin-left: -25px;
+}
+
+.donor__container1:nth-child(3) {
+  margin-left: -28px;
+}
+
+.donor__container1:nth-child(4) {
+  margin-top: -87px;
+  margin-left: -28px;
+}
+
+/* Как мы ищем кровь? */
+
+.blood__info {
+  box-sizing: border-box;
+  min-width: 1440px;
+  padding: 48px 11px 95px;
+}
+
+.pet__donor-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding-right: 38px;
+  padding-left: 38px;
+}
+
+.pet__blood-heading {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 600 36px Mulish, sans-serif;
+  color: black;
+  letter-spacing: 1.8px;
+}
+
+.pet__blood-text {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  align-self: center;
+  max-width: 1081px;
+  padding: 0;
+  margin: 0;
+  margin-top: 43px;
+  font: 600 24px Mulish, sans-serif;
+  color: black;
+  text-align: left;
+  letter-spacing: 1.2px;
+}
+
+.blood__donation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-right: 22px;
+  padding-left: 22px;
+  margin-top: 112px;
+}
+
+.veterinary__info {
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  max-width: 658px;
+  padding-bottom: 152px;
+}
+
+.veterinary__heading {
+  padding: 0;
+  padding-right: 38px;
+  padding-left: 38px;
+  margin: 0;
+  font: italic 900 36px Mulish, sans-serif;
+  color: black;
+  letter-spacing: 2.16px;
+}
+
+.veterinary__info-text {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 54px;
+  font: 400 20px Mulish, sans-serif;
+  color: black;
+  text-align: left;
+  letter-spacing: 1.2px;
+}
+
+.veterinary__image {
+  box-sizing: border-box;
+  display: block;
+  width: 664px;
+  max-width: initial;
+  height: 445px;
+  margin-left: 34px;
+  border: none;
+  object-fit: cover;
+}
+
+.blood__donor-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-right: 22px;
+  padding-left: 22px;
+  margin-top: 123px;
+}
+
+.social__container {
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  max-width: 694px;
+}
+
+.social__heading {
+  padding: 0;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin: 0;
+  font: italic 900 36px Mulish, sans-serif;
+  color: black;
+  letter-spacing: 2.16px;
+}
+
+.social__text {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 64px;
+  font: 400 20px Mulish, sans-serif;
+  color: black;
+  text-align: left;
+  letter-spacing: 1.2px;
+}
+
+.image__container {
+  box-sizing: border-box;
+  display: block;
+  width: 619px;
+  max-width: initial;
+  height: 450px;
+  margin-left: 43px;
+  border: none;
+  object-fit: cover;
+}
+
+.consultation {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 119px;
+}
+
+.consultation__section {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 60%;
+}
+
+.free__consultation {
+  box-sizing: border-box;
+  width: 796px;
+  padding: 0;
+  margin: 0;
+  font: 600 36px Mulish, sans-serif;
+  color: black;
+  text-align: center;
+  letter-spacing: 1.8px;
+}
+
+
+/* Подвал */
+
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-width: 1440px;
+  padding: 66px 46px 35px;
+  background: #0c1416;
+}
+
+.footer__contacts {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 36.67%;
+  padding-bottom: 136px;
+}
+
+.footer__contacts-title {
+  padding: 0;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+  margin: 0;
+  font: 1000 18px Mulish, sans-serif;
+  color: white;
+  letter-spacing: 1.08px;
+}
+
+.footer__contacts-item {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 17px;
+}
+
+.footer__contacts-data_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer__social_1 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+}
+
+.phone__text {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-left: 10.5px;
+  font: 400 18px Mulish, sans-serif;
+  color: white;
+  letter-spacing: 1.08px;
+}
+
+.footer__contacts-data_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 14px;
+}
+
+
+.email__text {
+  flex: 0 0 auto;
+  padding: 0;
+  padding-bottom: 7px;
+  margin: 0;
+  margin-left: 10.5px;
+  font: 400 18px Mulish, sans-serif;
+  color: white;
+  letter-spacing: 1.08px;
+}
+
+
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 4.25px;
+  padding-left: 4.25px;
+  margin-top: 18px;
+}
+
+
+.footer__info {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 39.59%;
+  padding-top: 243px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.grant__text {
+  padding: 0;
+  margin: 0;
+  font: 400 18px Mulish, sans-serif;
+  color: white;
+  letter-spacing: 1.08px;
+}
+
+
+.grant__info-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding-right: 42px;
+  padding-left: 118px;
+  margin-top: 14px;
+}
+
+
+.symbol {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 600 20px Mulish, sans-serif;
+  color: white;
+  letter-spacing: 1px;
+}
+
+
+.years {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-left: 6.75px;
+  font: 600 18px Mulish, sans-serif;
+  color: white;
+  letter-spacing: 0.9px;
+}
+
+
+.footer__logo {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 23.74%;
+  padding: 4.5px 15px 228px;
+}
+
+
+.footer__logo_img {
+  box-sizing: border-box;
+  display: block;
+  width: 53px;
+  max-width: initial;
+  height: 50px;
+}
+
+.footer__logo_site-name {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 253px;
+  padding: 0;
+  margin: 0;
+  margin-left: -1px;
+  font: 400 64px "Imperial Script", cursive;
+  color: white;
+  text-align: center;
+  letter-spacing: 3.84px;
+}
