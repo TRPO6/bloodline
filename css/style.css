@@ -1,19 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .container {
   width: 1440px;
   margin: 0 auto;
+  padding: 40px 50px;
 }
 
 .main {
   min-height: calc(100vh - 513px);
+}
+.main section .container {
+  background-color: #fff;
+}
+
+.title {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 2.4px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.logo__site-name {
+  font-size: 64px;
+  line-height: 77px;
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .btn {
@@ -46,18 +78,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.header .logo {
-  display: flex;
-  gap: 18px;
-  align-items: center;
-}
-.header .logo__site-name {
-  font-size: 64px;
-  line-height: 77px;
-  font-family: "Imperial Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .front .header .container {
   background-image: url(../asset/img/hero/background.jpg);
@@ -68,6 +88,14 @@ body {
   height: 411px;
   background: #0c1416;
   color: white;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+.footer__info {
+  text-align: center;
 }
 
 .hero .container {
