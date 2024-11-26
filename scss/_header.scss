@@ -1,0 +1,19 @@
+.header {
+  background: $dark;
+  color: $white;
+  .container {
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.front {
+  .header {
+    .container {
+      background-image: url(../asset/img/hero/background.jpg);
+      background-position: top center;
+    }
+  }
+}
