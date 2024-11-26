@@ -2,4 +2,17 @@
   height: 411px;
   background: #0c1416;
   color: white;
+
+  &__logo {
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+  }
+
+  &__info {
+    text-align: center;
+  }
 }

@@ -7,18 +7,6 @@
     justify-content: space-between;
     align-items: center;
   }
-  .logo {
-    display: flex;
-    gap: 18px;
-    align-items: center;
-    &__site-name {
-      font-size: 64px;
-      line-height: 77px;
-      font-family: "Imperial Script", cursive;
-      font-weight: 400;
-      font-style: normal;
-    }
-  }
 }
 
 .front {
