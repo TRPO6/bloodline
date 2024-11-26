@@ -15,4 +15,33 @@
   &__info {
     text-align: center;
   }
+
+  &__contacts {
+    &-title {
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 1.08px;
+      font-weight: 1000;
+      padding-bottom: 18px;
+    }
+
+    &-item {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+    &-data {
+      a {
+        color: $white;
+        text-decoration: none;
+        line-height: 27px;
+        font-size: 18px;
+        letter-spacing: 1.08px;
+        
+      }
+    }
+
+  }
+
 }
