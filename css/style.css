@@ -212,4 +212,100 @@ body {
 .hero__wrapper-btn {
   display: flex;
   justify-content: center;
+}
+
+.donors__photo {
+  display: flex;
+  flex-direction: row;
+}
+.donors img {
+  width: 270px;
+  height: 240px;
+}
+.donors__wrapper-btn {
+  display: flex;
+  justify-content: center;
+}
+.donors__btn {
+  width: 207px;
+  height: 58px;
+}
+.donors__box {
+  text-align: center;
+  width: 335px;
+  height: 300px;
+}
+
+.version__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.version__row__next {
+  padding-top: 100px;
+}
+.version__column {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.version__column img {
+  width: 153px;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.version__column__text {
+  width: 940px;
+  height: 290px;
+  background-image: url(../../asset/img/version/vector.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.version__column__text__describe {
+  text-align: left;
+  font-size: 24px;
+  line-height: 35px;
+  padding-right: 120px;
+  padding-bottom: 40px;
+  letter-spacing: 1.08px;
+  font-family: "Jost", sans-serif;
+}
+.version__column__cat {
+  padding-top: 125px;
+  width: 290px;
+  height: 250px;
+}
+.version__line {
+  height: 5px;
+  width: 210px;
+  background: #a80021;
+  display: block;
+}
+.version__title {
+  color: #a80021;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 1000;
+}
+.version__describe {
+  text-align: center;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 1.08px;
+}
+.version__wrapper-btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.version__btn {
+  width: 207px;
+  height: 58px;
 }/*# sourceMappingURL=style.css.map */
