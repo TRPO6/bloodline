@@ -2,6 +2,9 @@
   background: $dark;
   color: $white;
   .container {
+    .logo {
+      z-index: 2;
+    }
     height: 102px;
     display: flex;
     justify-content: space-between;
