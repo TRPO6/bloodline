@@ -13,10 +13,21 @@
   }
 
   &__info {
+    box-sizing: border-box;
+    padding-top: 75px;
     text-align: center;
   }
 
   &__contacts {
+
+    &__telegram {
+      display: flex;
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+    }
+
+
     &-title {
       font-size: 18px;
       line-height: 27px;
@@ -41,7 +52,12 @@
         
       }
     }
-
+    .social {
+      display: flex;
+      flex: 0 0 auto;
+      width: 32px;
+      height: 32px;
+    }
+    
   }
-
 }
