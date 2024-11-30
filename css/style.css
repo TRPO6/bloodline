@@ -142,7 +142,7 @@ body {
   position: absolute;
   width: 43px;
   height: 2px;
-  background-color: white;
+  background-color: #fff;
   transition-duration: 0.25s;
 }
 
@@ -166,7 +166,7 @@ body {
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  background-color: #18171c;
+  background-color: #000;
   transition-duration: 0.25s;
   z-index: 1;
 }
@@ -176,7 +176,7 @@ body {
   cursor: pointer;
   text-align: center;
   padding: 28px 22px;
-  color: white;
+  color: #fff;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;

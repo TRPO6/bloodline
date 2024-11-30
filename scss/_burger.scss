@@ -38,7 +38,7 @@
   position: absolute;
   width: 43px;
   height: 2px;
-  background-color: white;
+  background-color: $white;
   transition-duration: 0.25s;
 }
 .menu_btn > span::before {
@@ -59,7 +59,7 @@
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  background-color: #18171c;
+  background-color: $dark;
   transition-duration: 0.25s;
   z-index: 1;
 }
@@ -68,7 +68,7 @@
   cursor: pointer;
   text-align: center;
   padding: 28px 22px;
-  color: white;
+  color: $white;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
