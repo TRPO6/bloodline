@@ -1,5 +1,8 @@
+
+
 #menu_toggle {
     opacity: 0;
+    display: block;
 }
   
 #menu_toggle:checked + .menu_btn > span {
@@ -17,15 +20,12 @@
 }
   
 #menu_toggle:checked ~ .menu_box {
-    position: absolute;
     right: 0;
 }
   
 .menu_btn {
     position: relative;
     float: right;
-    top: 38px;
-    right: 81px;
     width: 48px;
     height: 48px;
     cursor: pointer;
@@ -38,9 +38,15 @@
     position: absolute;
     width: 43px;
     height: 2px;
-    background-color: white;
+    background-color: $white;
     transition-duration: .25s;
 }
+
+.menu_btn > span {
+    content: '';
+    top: 22px;
+}
+
 .menu_btn > span::before {
     content: '';
     top: -11px;
@@ -67,8 +73,8 @@
     display: block;
     cursor: pointer;
     text-align: center;
-    padding: 28px 22px;
-    color: white;
+    padding-top: 28px;
+    color: $white;
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;

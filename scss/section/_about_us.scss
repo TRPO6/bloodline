@@ -1,0 +1,85 @@
+.about_us{
+
+    &__row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 180px;
+    }
+
+    &__column{
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        &__right{
+            width: 650px;
+            height: 530px;
+            border-radius: 5px;
+            outline-style: solid;
+            outline-width: 1px;
+            h2{
+                margin-top: 80px;
+                margin-bottom: 70px;
+            }
+        }
+
+        img{
+            margin-top: 30px;
+        }
+    }
+
+    
+    &__wrapper-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn{
+        width: 311px;
+        height: 58px;
+    }
+
+    &__describe{
+        text-align: left;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 1.08px;
+    }
+
+    &__tel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__phone{
+            width: 420px;
+            height: 40px;
+            border-radius: 5px;
+            outline-width: 2px;
+        }
+        ::placeholder{
+            color:$primary;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: 1.08px;
+            padding-left: 15px;
+        }
+    }
+
+    &__check-policy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 18px;
+        gap: 20px;
+    }
+
+    &__checkbox{
+        transform: scale(2);
+    }
+}
+
