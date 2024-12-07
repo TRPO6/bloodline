@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,16 +12,53 @@ body {
   font-weight: 400;
   font-style: normal;
 
-  background-color: $white;
+  background-color: $dark;
 }
 
 .container {
   width: 1440px;
   margin: 0 auto;
+  padding: 40px 50px;
 }
 
 .main {
   min-height: calc(100vh - 513px);
+
+  section {
+    .container {
+      background-color: $white;
+    }
+  }
+}
+
+.info {
+  min-height: calc(100vh - 513px);
+}
+
+.info section .container {
+  background-color: #fff;
+}
+
+.title {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 2.4px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  &__site-name {
+    font-size: 64px;
+    line-height: 77px;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
 
 .btn {
