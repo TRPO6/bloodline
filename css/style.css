@@ -319,6 +319,10 @@ body {
   height: 58px;
 }
 
+.title-red {
+  color: red;
+}
+
 .important__row {
   display: flex;
   flex-direction: row;
@@ -340,12 +344,9 @@ body {
      object-fit: cover;
 }
 .important__column__center {
-  width: 1340px;
   display: flex;
-  flex-direction: column;
   position: relative;
-  align-items: center;
-  gap: 200px;
+  justify-content: center;
 }
 .important__column__center img {
   width: 180px;
@@ -370,6 +371,41 @@ body {
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 1.08px;
+}
+
+.participation .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+.participation .card {
+  width: 48%;
+  position: relative;
+  font-size: 28px;
+  padding-left: 140px;
+}
+.participation .card::before {
+  content: "";
+  width: 113px;
+  height: 135px;
+  position: absolute;
+  display: block;
+  left: 0;
+  background-image: url(../../asset/img/info/daw.svg);
+  background-size: contain;
+}
+
+.tobe__wrapper-btn {
+  width: 600px;
+  display: block;
+}
+.tobe__btn {
+  font-size: 36px;
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .information__describe {
