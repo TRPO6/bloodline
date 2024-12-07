@@ -1,48 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Информация о донорстве</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bloodline</title>
+        <link rel="stylesheet" href="css/style.css" />
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+          rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./fonts/impact/stylesheet.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+      </head>
+
+<body class = "front">
     <header class="header">
         <div class="container">
             <div class="logo">
-                <div class="logo__img">
-                    <img src="/asset/img/logo.svg" alt="логотип"> 
-                </div>
-                <div class="logo__site-name">
-                    Bloodline
-                </div>
+              <div class="logo__img">
+                <img src="./asset/img/main/logo.svg" alt="логотип" />
+              </div>
+              <div class="logo__site-name">Bloodline</div>
             </div>
-            <div class="header__nav"> 
-                Меню
+            <div class="hamburger-menu">
+              <input id="menu_toggle" type="checkbox" />
+              <label class="menu_btn" for="menu_toggle">
+                <span></span>
+              </label>
+              <ul class="menu_box">
+                <li><a class="menu_item" href="#">Главная</a></li>
+                <li><a class="menu_item" href="#">О нас</a></li>
+                <li><a class="menu_item" href="#">Информация о донорстве</a></li>
+                <li><a class="menu_item" href="#">Кто может стать донором?</a></li>
+                <li><a class="menu_item" href="#">Где сдать кровь?</a></li>
+                <li><a class="menu_item" href="#">Где достать кровь?</a></li>
+                <li><a class="menu_item" href="#">Как мы ищем кровь?</a></li>
+                <li><a class="menu_item" href="#">Часто задаваемые вопросы</a></li>
+                <li><a class="menu_item" href="#">Социальные сети и контакты</a></li>
+              </ul>
             </div>
-        </div>
+          </div>
     </header>
-
-    <main clas="str_2">
-        <section class="info__donor">
+    
+    <main class="info">
+        <section class="important">
             <div class="container">
-                Информация о донорстве
-                <div class="dog-hero">
-                    <img src="/asset/img/Dog_hero.svg">
+                <h2 class="title">Информация о донорстве</h2>
+                <div class = "important__column__center">
+                <div class = "information__describe">Донорство животных — это благородный акт, который может спасти жизнь другому питомцу. Каждый здоровый четвероногий друг может стать героем, предоставив свою кровь в критический момент. Ваша поддержка помогает ветеринарам проводить необходимые процедуры и спасать жизни. Присоединившись к программе донорства, вы не только помогаете другим, но и укрепляете связь со своим питомцем. Давайте вместе сделаем мир лучше для наших братьев меньших!</div>
+            </div>
+            <div class="important__row">
+                <div class="">
+                    <img src="./asset/img/info/dog.jpg">
                 </div>
-                <div class="cat-hero">
-                    <img src="/asset/img/Cat_hero.svg">
+                <div class="">
+                    <img src="./asset/img//info/cat.jpg">
                 </div>
+            </div>
+            </div>
         </section>
 
         <section class="participation">
             <div class="container">
-                ЗА УЧАСТИЕ В ДОНОРСТВЕ ВЛАДЕЛЕЦ И ПИТОМЕЦ ПОЛУЧАЮТ БОНУСЫ:
+            <h2 class="title"><span style="color: red;">ЗА УЧАСТИЕ В ДОНОРСТВЕ </span>ВЛАДЕЛЕЦ И ПИТОМЕЦ <br> ПОЛУЧАЮТ БОНУСЫ:</h2>
+            <div class="important__row">
+                <img src="./asset/img/info/daw.svg">
+                <div class="information__describe" style="padding-left: 50px;"> Здоровье питомца: Регулярные медицинские осмотры перед донорством помогают выявить и предотвратить возможные проблемы со здоровьем.</div>  
+                <img src="./asset/img/info/daw.svg">
+                <div class="information__describe" style="padding-left: 50px;">Бесплатные анализы: Владельцы получают возможность пройти бесплатные анализы и обследования для своего питомца, что позволяет следить за его состоянием.</div>
+            </div>
+            <div class="important__row">
+                <img src="./asset/img/info/daw.svg">
+                <div class="information__describe" style="padding-left: 50px;">Финансовые преимущества: Владельцы могут получить скидки на ветеринарные услуги и препараты, что делает уход за питомцем более доступным.</div>
+                <img src="./asset/img/info/daw.svg">
+                <div class="information__describe" style="padding-left: 50px;">Эмоциональное удовлетворение: Участие в донорстве приносит моральное удовлетворение от помощи другим животным, что укрепляет связь между владельцем и питомцем.</div>
             </div>
         </section>
 
-        <section class="Donor">
+        <section class="tobe">
             <div class="container">
-                Стать донором
+            <h2 class="title"><span style="color: red;">Стать</span> донором:</h2>
+            <div class="important__row">
+            <div class="information__describe" style="padding-left: 50px;">ПОЛУЧИТЕ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ: </div>
+            <div class="information__wrapper-btn">
+                <a href="#" class="btn information__btn">
+                    <div style="font-size: 36px; padding-top: 20px;">Стать донором</div>
+                </a>
+              </div>
+              </div>
             </div>
         </section>
 
@@ -83,7 +134,7 @@
                 
                 <div class="footer__logo">
                     <div class="footer__logo_img">
-                        <img src="/asset/img/logo.svg" alt="логотип"> 
+                        <img src="./asset/img/logo.svg" alt="логотип"> 
                     </div>
                     <div class="footer__logo_site-name">
                         Bloodline
