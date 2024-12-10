@@ -1,0 +1,22 @@
+.donors {
+  &__photo {
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    width: 270px;
+    height: 240px;
+  }
+
+  &__wrapper-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__box {
+    text-align: center;
+    width: 335px;
+    height: 300px;
+  }
+}
