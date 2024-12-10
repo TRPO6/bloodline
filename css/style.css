@@ -90,16 +90,73 @@ body {
 
 .footer {
   height: 411px;
-  background: #0c1416;
-  color: white;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
 }
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 80px;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+.footer__data {
+  flex: 1;
+}
+.footer__data .footer__contacts {
+  margin-bottom: 20px;
+}
+.footer__data .footer__contacts-title {
+  line-height: 27px;
+  font-weight: 1000;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.footer__data .footer__contacts .footer__contacts-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.footer__data .footer__contacts .footer__contacts-item .footer__contacts-img {
+  margin-right: 10px;
+}
+.footer__data .footer__contacts .footer__contacts-item .footer__contacts-img img {
+  width: 24px;
+  height: 24px;
+}
+.footer__data .footer__contacts .footer__contacts-item .footer__contacts-data a {
+  line-height: 27px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.footer__data .footer__contacts .footer__contacts-item .footer__contacts-data a:hover {
+  text-decoration: underline;
+}
+.footer__data .footer__social {
+  display: flex;
+  gap: 20px;
+}
+.footer__data .footer__social .social-icon {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.footer__data .footer__social .social-icon:last-child {
+  margin-right: 0;
+}
+.footer__data .footer__social .social-icon:hover {
+  transform: scale(1.1);
 }
 .footer__info {
   text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.footer__info div {
+  margin-bottom: 5px;
 }
 
 #menu_toggle {
@@ -121,7 +178,6 @@ body {
 }
 
 #menu_toggle:checked ~ .menu_box {
-  position: absolute;
   right: 0;
 }
 
