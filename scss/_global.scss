@@ -68,6 +68,11 @@ body {
   text-decoration: none;
 }
 
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (hover: hover) {
   .btn {
     transition: background-color 0.5s ease-in-out;
