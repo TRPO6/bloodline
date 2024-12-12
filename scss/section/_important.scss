@@ -1,8 +1,19 @@
+.title-red {
+  color: red;
+}
+
 .important {
   &__row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  &__rowp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
   }
 
   &__column {
@@ -20,6 +31,25 @@
     }
 
     position: relative;
+  }
+
+  &__column__center {
+    // width: 1340px;
+    // display: flex;
+    // flex-direction:column;
+    // position: relative;
+    // align-items: center;
+    // gap: 200px;
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+    img {
+      width: 180px;
+      height: 160px;
+      object-fit: cover;
+    }
   }
 
   &__line {
@@ -41,5 +71,51 @@
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 1.08px;
+  }
+}
+
+.participation {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .card {
+    width: 36%;
+    position: relative;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-top: 75px;
+  
+    &::before {
+      content: "";
+      width: 113px;
+      height: 135px;
+      position: absolute;
+      display: block;
+      left: 0;
+      background-image: url(../../asset/img/info/daw.svg);
+      background-size: contain;
+    }
+  }
+}
+
+.tobe {
+  &__wrapper-btn {
+    height: 200px;
+    padding-top: 50px;
+    width: 600px;
+    display: block;
+  }
+
+  &__btn {
+    font-size: 36px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 }
