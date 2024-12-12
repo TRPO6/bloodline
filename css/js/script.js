@@ -9,22 +9,23 @@ function getEventTarget(e) {
 }
 
 
-var ul = document.getElementById('usful_info__menu');
+const ul = document.getElementById('usful_info__menu');
+const usfulInfoItem = document.getElementsByClassName('usful_info__item');
 
 
 ul.onclick = function(event) {
     var target = getEventTarget(event);
 
-    target.style.color = target.style.color === 'red' ? 'black' : 'red';
-
     changeTitle.textContent = target.innerHTML;
+
+    target.classList.add('active');
 
     const target_id =  target.getAttribute('id');
 
     if (target_id == "usful_info__item_1"){
         changeText.textContent = "text_1";
     } else if (target_id == "usful_info__item_2"){
-        changeText.textContent = "У собак донация занимает примерно 30-40 минут, а у кошек 15-20 минут. Кровь у животных берется без наркоза, т.к. это абсолютно безболезненная процедура.";
+        changeText.textContent = "У собак донация занимает примерно 30-40 минут, а у кошек 15-20 минут. Кровь у животных берется без наркоза, т.к. это абсолютно безболезненная процедура.";
     }else if (target_id == "usful_info__item_3"){
         changeText.textContent = "text_3";
     }else if (target_id == "usful_info__item_4"){
@@ -47,5 +48,7 @@ const menuToggle = document.querySelector('#menu_toggle')
 const body = document.querySelector('body');
 
 menuToggle.addEventListener('click', ()=>{
-    body.classList.toggle('body_click');
+    body.classList.toggle('burger_click');
 })
+
+

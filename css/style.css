@@ -13,7 +13,7 @@ body {
   background-color: #000;
 }
 
-.body_click{
+.burger_click {
   overflow: hidden;
 }
 
@@ -72,6 +72,10 @@ body {
     background-color: #DD002C;
   }
 }
+.active {
+  color: red;
+}
+
 .header {
   background: #000;
   color: #fff;
