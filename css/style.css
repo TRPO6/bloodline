@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -243,6 +244,43 @@ body {
 
 .menu_item:hover {
   text-decoration: underline;
+}
+
+.find_section-content {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.find_section-content_img {
+  max-width: 600px;
+  margin-left: 20px;
+}
+.find_table-of-contents {
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирование по горизонтали */
+  margin: 20px 0; /* Отступы сверху и снизу */
+}
+.find_table-of-contents_table-of-contents2 {
+  font-weight: 1000;
+  font-style: oblique;
+  margin: px 0; /* Отступы сверху и снизу */
+  padding-left: 30px; /* Отступ слева */
+  padding-right: 20px; /* Отступ справа */
+}
+.find_text-with-padding {
+  font-size: 20px;
+  padding-left: 120px; /* Отступ слева */
+  padding-right: 120px; /* Отступ справа */
+}
+.find_version__wrapper-btn1 {
+  margin-top: 40px;
+  font-size: 36px;
+  padding-right: 70px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .hero .container {
