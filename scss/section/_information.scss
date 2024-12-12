@@ -1,0 +1,25 @@
+.information{
+    &__describe{
+        font-size: 28px;
+        font-family: "Mulish", sans-serif;
+        width: 1045px;
+        padding-top: 50px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    &__button_describe{
+        padding-top: 50px;
+        font-size: 28px;
+        width: 1045px;
+        font-weight: 600;
+        height: 50%;
+    }
+
+    &__title{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 45px;
+    }
+}
