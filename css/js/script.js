@@ -16,6 +16,11 @@ const usfulInfoItem = document.getElementsByClassName('usful_info__item');
 ul.onclick = function(event) {
     var target = getEventTarget(event);
 
+    var help = ul.getElementsByClassName('active');
+    if (help.length != 0){
+        help[0].classList.remove('active');
+    }
+
     changeTitle.textContent = target.innerHTML;
 
     target.classList.add('active');
