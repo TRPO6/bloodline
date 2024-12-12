@@ -1,342 +1,120 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Mulish", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #000;
 }
 
-.container {
+body.front {
+  background-color: #fff;
+  color: #000;
   width: 1440px;
-  margin: 0 auto;
-  padding: 40px 50px;
+}
+
+.tittle {
+  text-align: center;
+  max-width: 1319px;
+  width: 90%;
+  height: 45px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45.18px;
+  letter-spacing: 5%;
 }
 
 .main {
-  min-height: calc(100vh - 513px);
-}
-.main section .container {
-  background-color: #fff;
-}
-
-.title {
-  font-family: "Impact", sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  letter-spacing: 2.4px;
-  line-height: 48px;
-  text-align: center;
-}
-
-.logo {
+  padding: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
-  gap: 18px;
+  flex-direction: column;
   align-items: center;
 }
-.logo__site-name {
-  font-size: 64px;
-  line-height: 77px;
-  font-family: "Imperial Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
 
-.btn {
+.vet_clinics_addresses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vet_clinics_addresses .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.vet_clinics_addresses .map_cat {
+  flex: 1 1 638px;
+  max-width: 638px;
+  max-height: 618px;
+}
+.vet_clinics_addresses .map_cat img {
+  width: 100%;
+  height: auto;
+}
+.vet_clinics_addresses .addresses_wrapper {
+  flex: 2 1 600px;
+  max-width: 600px;
+  padding: 20px;
+}
+.vet_clinics_addresses .addresses_wrapper .addresses .addresses-item {
+  margin-bottom: 35px;
+}
+.vet_clinics_addresses .addresses_wrapper .addresses .addresses-item .addresses-name {
+  font-weight: 900;
+  font-style: italic;
   font-size: 20px;
-  font-weight: 700;
-  background-color: #A80021;
-  color: #fff;
-  padding: 15px 20px;
-  border-radius: 42px;
-  line-height: 25px;
-  letter-spacing: 1.2px;
-  min-width: 206px;
-  text-decoration: none;
+  line-height: 25.1px;
+  letter-spacing: 6%;
+  margin-bottom: 25px;
 }
-
-@media (hover: hover) {
-  .btn {
-    transition: background-color 0.5s ease-in-out;
-  }
-  .btn:hover {
-    background-color: #DD002C;
-  }
+.vet_clinics_addresses .addresses_wrapper .addresses .addresses-item .addresses-adress {
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.1px;
+  letter-spacing: 6%;
 }
-.header {
-  background: #000;
-  color: #fff;
+.vet_clinics_addresses .addresses_wrapper .doctor_vet_adresses {
+  width: 732px;
+  max-height: 250px;
+  width: 100%;
+  height: auto;
 }
-.header .container {
-  height: 102px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.vet_clinics_addresses .addresses_wrapper .doctor_vet_adresses .doctor_vet_adresses-name {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 25.1px;
+  letter-spacing: 6%;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 708px;
+  height: 65px;
 }
-.header .container .logo {
-  z-index: 2;
-}
-
-.front .header .container {
-  background-image: url(../asset/img/hero/background.jpg);
-  background-position: top center;
-}
-
-.footer {
-  height: 411px;
-  background: #0c1416;
-  color: white;
-}
-.footer__wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 80px;
-}
-.footer__info {
+.vet_clinics_addresses .addresses_wrapper .doctor_vet_adresses .doctor_vet_adresses-list {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.1px;
+  letter-spacing: 6%;
   text-align: center;
 }
-
-#menu_toggle {
-  opacity: 0;
+.vet_clinics_addresses .addresses_wrapper .doctor_vet_adresses .doctor_vet_adresses-list li {
+  margin-bottom: 10px;
 }
 
-#menu_toggle:checked + .menu_btn > span {
-  transform: rotate(45deg);
+.map_wrapper {
+  width: 100%;
+  max-width: 1375px;
+  max-height: 566px;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
 }
-
-#menu_toggle:checked + .menu_btn > span::before {
-  top: 0;
-  transform: rotate(0deg);
-}
-
-#menu_toggle:checked + .menu_btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-
-#menu_toggle:checked ~ .menu_box {
-  position: absolute;
-  right: 0;
-}
-
-.menu_btn {
-  position: relative;
-  float: right;
-  top: 38px;
-  right: 81px;
-  width: 48px;
-  height: 48px;
-  cursor: pointer;
-  z-index: 2;
-}
-
-.menu_btn > span,
-.menu_btn > span::before,
-.menu_btn > span::after {
-  display: flex;
-  position: absolute;
-  width: 43px;
-  height: 2px;
-  background-color: #fff;
-  transition-duration: 0.25s;
-}
-
-.menu_btn > span::before {
-  content: "";
-  top: -11px;
-}
-
-.menu_btn > span::after {
-  content: "";
-  top: 11px;
-}
-
-.menu_box {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: -100%;
+.map_wrapper .map {
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 80px 0;
-  list-style: none;
-  background-color: #000;
-  transition-duration: 0.25s;
-  z-index: 1;
+  border: none;
 }
 
-.menu_item {
-  display: block;
-  cursor: pointer;
-  text-align: center;
-  padding: 28px 22px;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 700;
-  text-decoration: none;
-  transition-duration: 0.25s;
-}
-
-.menu_item:hover {
-  text-decoration: underline;
-}
-
-.hero .container {
-  height: 881px;
-  background-image: url(../../asset/img/hero/background.jpg);
-  background-position: bottom center;
-  position: relative;
-}
-.hero__wrapper {
-  width: 466px;
-  height: 215px;
-  position: absolute;
-  top: 262px;
-  right: 50px;
-}
-.hero__text {
-  text-align: right;
-  color: #fff;
-  font-size: 36px;
-  line-height: 45px;
-  font-weight: 700;
-  letter-spacing: 2.16;
-  padding-bottom: 38px;
-}
-.hero__wrapper-btn {
-  display: flex;
-  justify-content: center;
-}
-
-.version__row {
-  display: flex;
-  justify-content: space-around;
-}
-.version__row__next {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.version__column {
-  width: 650px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  align-items: center;
-  gap: 20px;
-}
-.version__column img {
-  width: 153px;
-  height: 170px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.version__column__text {
-  width: 940px;
-  height: 290px;
-  background-image: url(../../asset/img/version/vector.svg);
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.version__column__text__describe {
-  text-align: left;
-  font-size: 24px;
-  line-height: 35px;
-  padding-right: 120px;
-  padding-bottom: 40px;
-  letter-spacing: 1.08px;
-  font-family: "Jost", sans-serif;
-}
-.version__column__cat {
-  padding-top: 125px;
-  width: 290px;
-  height: 250px;
-}
-.version__line {
-  height: 5px;
-  width: 210px;
-  background: #A80021;
-  display: block;
-}
-.version__title {
-  color: #A80021;
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 1000;
-}
-.version__describe {
-  text-align: center;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 1.08px;
-}
-.version__wrapper-btn {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-.important__row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.important__column {
-  width: 650px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  align-items: center;
-  gap: 20px;
-  position: relative;
-}
-.important__column img {
-  width: 180px;
-  height: 160px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.important__line {
-  height: 5px;
-  width: 210px;
-  background: #a80021;
-  display: block;
-}
-.important__title {
-  color: #a80021;
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: 1000;
-}
-.important__describe {
-  text-align: center;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 1.08px;
-}
-
-.donors__photo {
-  display: flex;
-  flex-direction: row;
-}
-.donors img {
-  width: 270px;
-  height: 240px;
-}
-.donors__wrapper-btn {
-  display: flex;
-  justify-content: center;
-}
-.donors__box {
-  text-align: center;
-  width: 335px;
-  height: 300px;
-}/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
