@@ -1,0 +1,319 @@
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Mulish-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Mulish-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Mulish-Black.woff2") format("woff2");
+  font-display: swap;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.page {
+  width: 1440px;
+  padding: 0;
+  margin: 0 auto;
+}
+.header {
+  background-color: #0C1416;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2px 50px 2px 34px;
+}
+.header__logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 22px;
+}
+.logo__img-paw {
+  margin-top: 27px;
+}
+.logo__img-text {
+  margin-top: 21px;
+}
+.header-nav__toggle {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.main__container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 16px 17px 86px;
+  justify-content: space-between;
+}
+.main__title {
+  font-family: "Mulish", "Arial", sans-serif;
+  display: inline;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+  margin: 0;
+  padding-left: 77px;
+  align-self: flex-end;
+}
+.main__button-close {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 116px;
+  height: 116px;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.main__form {
+  margin-top: 70px;
+}
+.form-contact-owner__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 58px 100px 36px;
+  gap: 118px 116px;
+}
+.form-contact-owner__input {
+  font-family: "Mulish", "Arial", sans-serif;
+  width: 484px;
+  padding: 59px 56px 45px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #000000;
+}
+.form-contact-owner__input::placeholder {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #000000;
+}
+.form-contact-owner__input--comment {
+  width: 1075px;
+  height: 266px;
+  display: block;
+  margin: 0 auto 68px;
+  padding: 17px;
+  text-align: left;
+}
+.form-contact-owner__input--comment::placeholder {
+  text-align: left;
+}
+.form-contact-owner__checkbox {
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  height: 67px;
+  width: 67px;
+  border: 1px solid #cdcdcd;
+  margin: 15px 41px 0 0;
+  vertical-align: top;
+  border-radius: 5px;
+}
+.form-contact-owner__checkbox:checked::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/icon-tick.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 6px;
+  left: 4px;
+}
+.form-contact-owner__description {
+  font-family: "Mulish", "Arial", sans-serif;
+  display: inline-block;
+  width: 600px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  margin: 0;
+  margin-right: 150px;
+}
+.form-contact-owner__button {
+  font-family: "Mulish", "Arial", sans-serif;
+  width: 478px;
+  background-color: #A80021;
+  padding: 28px 58px 28px 46px;
+  border-radius: 42px;
+  border: none;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: top;
+}
+.footer {
+  background-color: #0C1416;
+  padding: 66px 50px 35px;
+}
+.footer__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 70px;
+}
+.footer__contacts-title {
+  font-family: "Mulish", "Arial", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 19px;
+}
+.footer__contacts-link {
+  font-family: "Mulish", "Arial", sans-serif;
+  display: flex;
+  width: 200px;
+  gap: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.footer__contacts-link::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 26px;
+}
+.footer__contacts-link--phone::before {
+  background-image: url("../img/icon-tel.svg");
+}
+.footer__contacts-link--mail::before {
+  background-image: url("../img/icon-email.svg");
+}
+.footer__contacts-data--phone {
+  margin-bottom: 17px;
+}
+.footer__contacts-data--mail {
+  margin-bottom: 26px;
+}
+.footer__social {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer__social-link::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 30px;
+}
+.footer__social-link--telegram::before {
+  background-image: url("../img/icon-telegram.svg");
+}
+.footer__social-link--vk::before {
+  background-image: url("../img/icon-vk.svg");
+  width: 33px;
+}
+.footer__social-link--inst::before {
+  background-image: url("../img/icon-inst.svg");
+}
+.footer__logo {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  justify-content: flex-end;
+}
+.logo__img-text-footer {
+  margin-top: 2px;
+}
+.footer__copyright {
+  font-family: "Mulish", "Arial", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.footer__copyright--grant {
+  margin-bottom: 13px;
+}
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.modal__container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 1139px;
+  height: 569px;
+  padding: 21px 37px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.main__button-close-modal {
+  align-self: flex-end;
+}
+.modal__text {
+  font-family: "Mulish", "Arial", sans-serif;
+  width: 840px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+.modal__text::after {
+  content: "";
+  position: absolute;
+  width: 306px;
+  height: 262px;
+  background-image: url("../img/cat.png");
+  top: 286px;
+  left: 270px;
+}
