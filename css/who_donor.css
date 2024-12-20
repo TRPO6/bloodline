@@ -1,0 +1,104 @@
+.who_donar .content-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 207px;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 1440px;
+  padding-top: 58px;
+  padding-bottom: 66px;
+}
+.who_donar .flex-container-with-text-content {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 1368px;
+}
+.who_donar .flex-container-with-text-content:nth-child(1) {
+  margin-left: -28px;
+}
+.who_donar .flex-container-with-text-content:nth-child(2) {
+  margin-top: -87px;
+  margin-left: -25px;
+}
+.who_donar .flex-container-with-text-content:nth-child(3) {
+  margin-left: -28px;
+}
+.who_donar .flex-container-with-text-content:nth-child(4) {
+  margin-top: -87px;
+  margin-left: -28px;
+}
+.who_donar .donor-card-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 737px;
+}
+.who_donar .donor-criteria {
+  flex: 0 0 auto;
+  padding-right: 24px;
+  padding-left: 24px;
+  font: 600 20px Mulish, sans-serif;
+}
+.who_donar .elegant-title {
+  box-sizing: border-box;
+  width: 665px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  margin: 0;
+  font: italic 1000 36px Mulish, sans-serif;
+  color: black;
+  text-align: center;
+  letter-spacing: 1.8px;
+  white-space: pre-wrap;
+}
+.who_donar .highlighted-text {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-top: 41px;
+  font: 600 20px Mulish, sans-serif;
+  color: black;
+  text-align: left;
+  letter-spacing: 1px;
+  white-space: pre-wrap;
+}
+.who_donar .btn_pets {
+  flex: 0 0 auto;
+  margin-top: 125px;
+  margin-left: 55px;
+  min-width: 478px;
+  min-height: 110px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font: 400 36px Mulish, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #A80021;
+  border-radius: 42px;
+  transition: background-color 0.3s ease;
+}
+.who_donar .btn_pets:hover {
+  background-color: #870017;
+}
+.who_donar .image-container {
+  box-sizing: border-box;
+  display: block;
+  width: 608px;
+  height: 764px;
+  max-width: initial;
+  border: none;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=who_donor.css.map */

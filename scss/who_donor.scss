@@ -1,4 +1,3 @@
-/*
 .who_donar
 {
     .content-section {
@@ -7,8 +6,8 @@
         flex-direction: column;
         gap: 207px;
         align-items: center;
-       // justify-content: flex-start;
-       // min-width: 1440px;
+        justify-content: flex-start;
+        min-width: 1440px;
         padding-top: 58px;
         padding-bottom: 66px;
     }
@@ -49,11 +48,13 @@
         flex: 0 0 auto;
         padding-right: 24px;
         padding-left: 24px;
+        font: 600 20px Mulish, sans-serif;
     }
     .elegant-title {
         box-sizing: border-box;
         width: 665px;
-        padding: 0;
+        padding-bottom: 20px;
+        padding-left: 40px;
         margin: 0;
         font: italic 1000 36px Mulish, sans-serif;
         color: black;
@@ -72,19 +73,36 @@
         letter-spacing: 1px;
         white-space: pre-wrap;
     }
+
     .btn_pets {
         flex: 0 0 auto;
-        padding-right: 63px;
-        margin-top: 94px;
+        margin-top: 125px;
+        margin-left: 55px;
+        min-width: 478px;
+        min-height: 110px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font: 400 36px Mulish, sans-serif;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        background-color: #A80021;
+        border-radius: 42px;
+        transition: background-color 0.3s ease;
     }
+    
+      .btn_pets:hover {
+        background-color: #870017;
+      }
+
     .image-container {
         box-sizing: border-box;
         display: block;
         width: 608px;
-        max-width: initial;
         height: 764px;
+        max-width: initial;
         border: none;
         object-fit: cover;
     }    
 }
-    */
