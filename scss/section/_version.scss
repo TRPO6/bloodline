@@ -1,12 +1,21 @@
 .version {
+
+
+  .card_column{
+    width: 650px;
+  }
+
+
   &__row {
-    display: flex;
-    justify-content: space-around;
+    // display: flex;
+    // justify-content: space-around;
     &__next {
       padding-top: 100px;
       padding-bottom: 100px;
     }
   }
+
+
 
   &__column {
     width: 650px;
