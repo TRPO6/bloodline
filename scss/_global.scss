@@ -9,15 +9,16 @@ body {
   padding: 0;
 
   font-family: "Mulish", sans-serif;
-  font-size: 18px;
   font-weight: 400;
   font-style: normal;
 
   background-color: $dark;
+
+  font-size: 24px;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1940px;
   width: 100%;
   margin: 0 auto;
   padding: 40px 50px;
