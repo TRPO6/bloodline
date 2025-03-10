@@ -9,14 +9,16 @@ body {
   padding: 0;
 
   font-family: "Mulish", sans-serif;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
 
-  background-color: $dark;
+  background-color: green;
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   padding: 40px 50px;
 }
@@ -66,6 +68,31 @@ body {
   min-width: 206px;
 
   text-decoration: none;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  display: flex;
+}
+
+.card_column{
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title-red {
+  color: $primary;
 }
 
 @media (hover: hover) {

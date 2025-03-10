@@ -11,35 +11,76 @@
     
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <div class="logo__img">
-                    <img src="./asset/img/logo.svg" alt="логотип" />
-                </div>
-                <div class="logo__site-name">Bloodline</div>
-            </div>
-            <div class="header__nav">Меню</div>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <div class="logo__img">
+        <picture>
+          <img src="./asset/img/logo.svg" alt="логотип" />
+        </picture>
         </div>
-    </header>
+        <div class="logo__site-name">Bloodline</div>
+      </div>
+
+      <div class="hamburger-menu">
+        <input id="menu_toggle" type="checkbox" />
+        <label class="menu_btn" for="menu_toggle">
+          <span></span>
+        </label>
+        <ul class="menu_box">
+          <li><a class="menu_item" href="/">Главная</a></li>
+          <li><a class="menu_item" href="#">О нас</a></li>
+          <li>
+            <a class="menu_item" href="/info-donor">Информация о донорстве</a>
+          </li>
+          <li>
+            <a class="menu_item" href="/who-donar"
+              >Кто может стать донором?</a
+            >
+          </li>
+          <li><a class="menu_item" href="#">Где сдать кровь?</a></li>
+          <li><a class="menu_item" href="#">Где достать кровь?</a></li>
+          <li><a class="menu_item" href="#">Как мы ищем кровь?</a></li>
+          <li><a class="menu_item" href="#">Часто задаваемые вопросы</a></li>
+          <li>
+            <a class="menu_item" href="#">Социальные сети и контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+
 
 
     <main class="main">
       <section class="pets">
           <div class="container">
-              <div class="find_table-of-contents">
+              <div class="find_table-of-contents"><!-- Текст, код или прочее -->
                   <h1>Информация для тех, кто нуждается в крови для питомца</h1>
               </div>
-              <div class="find_text-with-padding">
+              <div class="find_text-with-padding"><!-- Текст, код или прочее -->
                   <p>
                       Когда вашему питомцу требуется переливание крови, мы используем все доступные ресурсы, чтобы найти подходящего донора. В первую очередь, мы обращаемся к ветеринарным клиникам и больницам, где ведется учет доноров животных. Кроме того, мы активно используем социальные сети для распространения информации о необходимости переливания. Мы публикуем объявления в группах для владельцев животных, размещаем информацию на специализированных сайтах и форумах. Наши усилия направлены на то, чтобы найти донора как можно быстрее и спасти жизнь вашего питомца.
                   </p>
               </div>
   
               <div class="section">
-                  <h2 class="find_table-of-contents_table-of-contents2">Больницы</h2>
-                  <div class="find_section-content">
-                      <div class="text">
+                  <h2 class="cards">Больницы</h2>
+                  <div class="cards">
+                    <div class="card">
+                      Мы предоставляем вам контактную информацию и возможность отслеживать наличие крови в выбранной ветеринарной клинике или больнице. Вы можете связаться с ними напрямую, чтобы уточнить наличие необходимой группы крови и узнать, как получить ее для своего питомца. Мы также можем помочь связаться с больницей и получить ответы на ваши вопросы. Наша цель - обеспечить вам максимально быстрый и удобный доступ к информации о донорской крови.
+                    </div>
+                    <div class="card">
+                      <img class="find_section-content_img" src="asset/img/important/med.png" alt="Ветеринарная клиника">
+                    </div>
+                  </div>
+                  <div class="find_section-content"><!-- Текст, код или прочее -->
+                      <div class="cards">
                           <p>
                               Мы предоставляем вам контактную информацию и возможность отслеживать наличие крови в выбранной ветеринарной клинике или больнице. Вы можете связаться с ними напрямую, чтобы уточнить наличие необходимой группы крови и узнать, как получить ее для своего питомца. Мы также можем помочь связаться с больницей и получить ответы на ваши вопросы. Наша цель - обеспечить вам максимально быстрый и удобный доступ к информации о донорской крови.
                           </p>
@@ -49,9 +90,9 @@
               </div>
   
               <div class="section">
-                  <h2 class="find_table-of-contents_table-of-contents2">Социальные сети</h2>
-                  <div class="find_section-content">
-                      <div class="text">
+                  <h2 class="cards">Социальные сети</h2>
+                  <div class="find_section-content"><!-- Текст, код или прочее -->
+                      <div class="cards">
                           <p>
                               Мы предоставляем вам контактную информацию владельца донора и возможность отслеживать, доступна ли нужная кровь для вашего питомца. Мы используем популярные социальные сети, такие как Telegram, ВКонтакте и Instagram, чтобы обеспечить максимально быстрый и удобный доступ к информации. Вы можете связаться с владельцем донора напрямую, чтобы уточнить наличие крови, условия ее получения и согласовать время. Мы также можем помочь связаться с владельцем и ответить на ваши вопросы. Наша цель - сделать процесс получения донорской крови максимально удобным для вас.
                           </p>
@@ -60,7 +101,7 @@
                   </div>
               </div>
   
-              <div class="find_version__wrapper-btn1">
+              <div class="find_version__wrapper-btn1"> <!-- Текст, код или прочее -->
                   <p>Получите бесплатную консультацию:</p>
                   <a class="btn" href="#">Нужна кровь</a>
               </div>
@@ -71,65 +112,83 @@
   
   
 
+
+
+
+
+
+
+
+
+
+  
+
    
    
-</body> 
+ 
       
     
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__wrapper">
-          <div class="footer__data">
-            <div class="footer__contacts">
-              <div class="footer__contacts-title">Контактные данные:</div>
-              <div class="footer__contacts-item">
-                <div class="footer__contacts-img">
-                  <img src="./asset/img/mdi_phone.svg" />
-                </div>
-                <div class="footer__contacts-data">
-                  <a href="tel:86334535633"> 8(633)453-56-33 </a>
-                </div>
-              </div>
-
-              <div class="footer__contacts-item">
-                <div class="footer__contacts-img">
-                  <svg
-                    width="26"
-                    height="26"
-                    viewBox="0 0 26 26"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M5.04262 21.7433C4.46971 21.7433 3.97943 21.5395 3.57179 21.1319C3.16415 20.7242 2.95998 20.2336 2.95929 19.66V7.15999C2.95929 6.58708 3.16346 6.0968 3.57179 5.68916C3.98012 5.28152 4.4704 5.07735 5.04262 5.07666H21.7093C22.2822 5.07666 22.7728 5.28083 23.1812 5.68916C23.5895 6.09749 23.7933 6.58777 23.7926 7.15999V19.66C23.7926 20.2329 23.5888 20.7235 23.1812 21.1319C22.7735 21.5402 22.2829 21.744 21.7093 21.7433H5.04262ZM13.376 14.4517L21.7093 9.24333V7.15999L13.376 12.3683L5.04262 7.15999V9.24333L13.376 14.4517Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <div class="footer__contacts-data">
-                  <a href="mailto:vetclikpet@mail.ru"> vetclikpet@mail.ru </a>
-                </div>
-              </div>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <div class="footer__data">
+        <div class="footer__contacts">
+          <div class="footer__contacts-title">Контактные данные:</div>
+          <div class="footer__contacts-item">
+            <div class="footer__contacts-img">
+            <picture>
+              <img src="./asset/img/footer/phone.svg" alt="Phone" />
+            </picture>
             </div>
-            <div class="footer__social">
-              <img src="./asset/img/telegram.svg" class="telegram" />
-              <img src="./asset/img/hugeicons_vk.svg" class="VK" />
-              <img src="./asset/img/mdi_instagram.svg" class="instagram" />
+            <div class="footer__contacts-data">
+              <a href="tel:86334535633"> 8(633)453-56-33 </a>
             </div>
           </div>
 
-          <div class="logo">
-            <div class="logo__img">
-              <img src="./asset/img/logo.svg" alt="логотип" />
+          <div class="footer__contacts-item">
+            <div class="footer__contacts-img">
+            <picture>
+              <img src="./asset/img/footer/email.svg" alt="Mail" />
+            </picture>
             </div>
-            <div class="logo__site-name">Bloodline</div>
+            <div class="footer__contacts-data">
+              <a href="mailto:vetclikpet@mail.ru"> vetclikpet@mail.ru </a>
+            </div>
           </div>
         </div>
-        <div class="footer__info">
-          <div>При поддержке гранта «Умный Сон»</div>
-          <div>©2024г.</div>
+        <div class="footer__social">
+          <a href="#" target="_blank" class="social-icon">
+          <picture>
+            <img src="./asset/img/footer/telegram.svg" alt="Telegram" />
+          </picture>
+          </a>
+          <a href="#" target="_blank" class="social-icon">
+          <picture>
+            <img src="./asset/img/footer/VK.svg" alt="VK" />
+          </picture>
+          </a>
+          <a href="#" target="_blank" class="social-icon">
+          <picture>
+            <img src="./asset/img/footer/instagram.svg" alt="Instagram" />
+          </picture>
+          </a>
         </div>
       </div>
-    </footer>
-  
+
+      <div class="logo">
+        <div class="logo__img">
+          <picture>
+            <img src="/asset/img/logo.svg" alt="логотип" />
+          </picture>
+        </div>
+        <div class="logo__site-name">Bloodline</div>
+      </div>
+    </div>
+    <div class="footer__info">
+      <div>При поддержке гранта «Умный Сон»</div>
+      <div>©2024г.</div>
+    </div>
+  </div>
+</footer>
+</body>  
 </html>

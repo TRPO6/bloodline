@@ -19,7 +19,9 @@
       <div class="container">
         <div class="logo">
           <div class="logo__img">
+          <picture>
             <img src="./asset/img/logo.svg" alt="логотип" />
+          </picture>
           </div>
           <div class="logo__site-name">Bloodline</div>
         </div>
@@ -30,10 +32,16 @@
             <span></span>
           </label>
           <ul class="menu_box">
-            <li><a class="menu_item" href="#">Главная</a></li>
+            <li><a class="menu_item" href="/">Главная</a></li>
             <li><a class="menu_item" href="#">О нас</a></li>
-            <li><a class="menu_item" href="#">Информация о донорстве</a></li>
-            <li><a class="menu_item" href="#">Кто может стать донором?</a></li>
+            <li>
+              <a class="menu_item" href="/info-donor">Информация о донорстве</a>
+            </li>
+            <li>
+              <a class="menu_item" href="/who-donar"
+                >Кто может стать донором?</a
+              >
+            </li>
             <li><a class="menu_item" href="#">Где сдать кровь?</a></li>
             <li><a class="menu_item" href="#">Где достать кровь?</a></li>
             <li><a class="menu_item" href="#">Как мы ищем кровь?</a></li>
@@ -63,9 +71,12 @@
       <section class="version">
         <div class="container">
           <h2 class="title">Выберете свой вариант:</h2>
-          <div class="version__row">
-            <div class="version__column">
-              <img src="/asset/img/version/probirka_1.jpg" />
+          <div class="cards">
+            <div class="card card_column">
+              <picture>
+                <img src="/asset/img/version/probirka_1.jpg" alt="" />
+              </picture>
+
               <span class="version__line"></span>
               <div class="version__title">Стать донором</div>
               <div class="version__describe">
@@ -76,8 +87,10 @@
                 <a href="#" class="btn version__btn">Подробнее</a>
               </div>
             </div>
-            <div class="version__column">
-              <img src="/asset/img/version/probirka_2.jpg" />
+            <div class="card card_column">
+              <picture >
+                <img src="/asset/img/version/probirka_2.jpg" alt="пробирка"/>
+              </picture>
               <span class="version__line"></span>
               <div class="version__title">Нужна кровь</div>
               <div class="version__describe">
@@ -89,7 +102,7 @@
               </div>
             </div>
           </div>
-          <div class="version__row version__row__next">
+          <div class="cards version__offset">
             <div class="version__column__text">
               <div class="version__column__text__describe">
                 Каждый шестой владелец больного питомца <br />
@@ -98,7 +111,9 @@
               </div>
             </div>
             <div class="version__column__cat">
-              <img src="/asset/img/version/cat.jpg" />
+            <picture>
+              <img src="/asset/img/version/cat.jpg" alt="кошка" />
+            </picture>
             </div>
           </div>
         </div>
@@ -110,9 +125,11 @@
             Почему ваш питомец может стать донором и помочь другим животным?
           </h2>
 
-          <div class="important__row">
+          <div class="cards">
             <div class="important__column">
-              <img src="/asset/img/important/heart.jpg" />
+            <picture>
+              <img src="/asset/img/important/heart.jpg" alt="важно" />
+            </picture>
               <span class="important__line"></span>
               <div class="important__title">Спасти жизни</div>
               <div class="important__describe">
@@ -122,7 +139,9 @@
               </div>
             </div>
             <div class="important__column">
-              <img src="/asset/img/important/text.jpg" />
+            <picture>
+              <img src="/asset/img/important/text.jpg" alt="важный текст"/>
+            </picture>
               <span class="important__line"></span>
               <div class="important__title">Мониторинг здоровья</div>
               <div class="important__describe">
@@ -138,27 +157,35 @@
       <section class="donors">
         <div class="container">
           <h2 class="title">Кто может стать донором?</h2>
-          <div class="donors__photo">
+          <div class="cards">
             <div class="donors__box">
-              <img src="/asset/img/donors/dog.svg" />
+            <picture>
+              <img src="/asset/img/donors/dog.svg" alt="донор_собака"/>
+            </picture>
               <div class="donors__wrapper-btn">
                 <a href="#" class="btn donors__btn">Собака</a>
               </div>
             </div>
             <div class="donors__box">
-              <img src="/asset/img/donors/cat.svg" />
+            <picture>
+              <img src="/asset/img/donors/cat.svg" alt="донор_кошка" />
+            </picture>
               <div class="donors__wrapper-btn">
                 <a href="#" class="btn donors__btn">Кошка</a>
               </div>
             </div>
             <div class="donors__box">
-              <img src="/asset/img/donors/rabbit.svg" />
+            <picture>
+              <img src="/asset/img/donors/rabbit.svg" alt="донор_кролик" />
+            </picture>
               <div class="donors__wrapper-btn">
                 <a href="#" class="btn donors__btn">Кролик</a>
               </div>
             </div>
             <div class="donors__box">
-              <img src="/asset/img/donors/parrot.svg" />
+            <picture>
+              <img src="/asset/img/donors/parrot.svg" alt="донор_попугай" />
+            </picture>
               <div class="donors__wrapper-btn">
                 <a href="#" class="btn donors__btn">Попугай</a>
               </div>
@@ -187,7 +214,9 @@
               <div class="footer__contacts-title">Контактные данные:</div>
               <div class="footer__contacts-item">
                 <div class="footer__contacts-img">
+                <picture>
                   <img src="./asset/img/footer/phone.svg" alt="Phone" />
+                </picture>
                 </div>
                 <div class="footer__contacts-data">
                   <a href="tel:86334535633"> 8(633)453-56-33 </a>
@@ -196,7 +225,9 @@
 
               <div class="footer__contacts-item">
                 <div class="footer__contacts-img">
+                <picture>
                   <img src="./asset/img/footer/email.svg" alt="Mail" />
+                </picture>
                 </div>
                 <div class="footer__contacts-data">
                   <a href="mailto:vetclikpet@mail.ru"> vetclikpet@mail.ru </a>
@@ -205,20 +236,28 @@
             </div>
             <div class="footer__social">
               <a href="#" target="_blank" class="social-icon">
+              <picture>
                 <img src="./asset/img/footer/telegram.svg" alt="Telegram" />
+              </picture>
               </a>
               <a href="#" target="_blank" class="social-icon">
+              <picture>
                 <img src="./asset/img/footer/VK.svg" alt="VK" />
+              </picture>
               </a>
               <a href="#" target="_blank" class="social-icon">
+              <picture>
                 <img src="./asset/img/footer/instagram.svg" alt="Instagram" />
+              </picture>
               </a>
             </div>
           </div>
 
           <div class="logo">
             <div class="logo__img">
-              <img src="/asset/img/logo.svg" alt="логотип" />
+              <picture>
+                <img src="/asset/img/logo.svg" alt="логотип" />
+              </picture>
             </div>
             <div class="logo__site-name">Bloodline</div>
           </div>
