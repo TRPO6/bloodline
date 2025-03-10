@@ -12,7 +12,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
-  background-color: green;
+  background-color: black;
 }
 
 .container {
@@ -282,32 +282,16 @@ body {
   max-width: 600px;
   margin-left: 20px;
 }
-.find_table-of-contents {
-  font-size: 36px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Центрирование по горизонтали */
-  margin: 20px 0; /* Отступы сверху и снизу */
-}
-.find_table-of-contents_table-of-contents2 {
-  font-weight: 1000;
-  font-style: oblique;
-  margin: px 0; /* Отступы сверху и снизу */
-  padding-left: 30px; /* Отступ слева */
-  padding-right: 20px; /* Отступ справа */
-}
 .find_text-with-padding {
   font-size: 20px;
   padding-left: 120px; /* Отступ слева */
   padding-right: 120px; /* Отступ справа */
 }
-.find_version__wrapper-btn1 {
-  margin-top: 40px;
-  font-size: 36px;
-  padding-right: 70px;
+.find_cards {
   display: flex;
-  text-align: center;
-  justify-content: center;
+  align-items: center; /* Выравнивание по вертикали */
+  gap: 430px; /* Расстояние между элементами */
+  margin-top: 100px;
 }
 
 .hero .container {

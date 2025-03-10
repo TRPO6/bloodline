@@ -1,44 +1,26 @@
-.find{
+.find {
+  &_section-content {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
 
-&_section-content {
-  font-size: 20px;
-  display: flex;
-  flex-direction: row;
-
-  &_img {
-    max-width: 600px;
-    margin-left: 20px;
+    &_img {
+      max-width: 600px;
+      margin-left: 20px;
+    }
   }
-}
 
-&_table-of-contents {
-  font-size: 36px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Центрирование по горизонтали */
-  margin: 20px 0; /* Отступы сверху и снизу */
-
-  &_table-of-contents2 {
-    font-weight: 1000;
-  font-style:oblique;
-  margin: px 0; /* Отступы сверху и снизу */
-  padding-left: 30px; /* Отступ слева */
-  padding-right: 20px; /* Отступ справа */
+  &_text-with-padding {
+    font-size: 20px;
+    padding-left: 120px; /* Отступ слева */
+    padding-right: 120px; /* Отступ справа */
   }
-}
-
-&_text-with-padding {
-  font-size: 20px;
-  padding-left: 120px; /* Отступ слева */
-  padding-right: 120px; /* Отступ справа */
-}
-
-&_version__wrapper-btn1 {
-  margin-top: 40px;
-  font-size: 36px;
-  padding-right: 70px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
+  &_cards {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    gap: 430px; /* Расстояние между элементами */
+    margin-top:100px;
+    
+  }
+  
 }
