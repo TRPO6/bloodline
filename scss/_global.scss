@@ -17,6 +17,10 @@ body {
   background-color: red;
 }
 
+.burger_click{
+  overflow: hidden;
+}
+
 .container {
   max-width: 1440px;
   width: 100%;
@@ -69,6 +73,12 @@ body {
   min-width: 206px;
 
   text-decoration: none;
+}
+
+.btn.disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .centered {

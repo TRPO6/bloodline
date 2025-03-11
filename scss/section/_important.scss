@@ -1,25 +1,16 @@
 .important {
-  &__row {
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-around;
+  .container{
+    padding-bottom: 0px;
   }
 
-  &__column {
-    width: 650px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-    gap: 20px;
+  .cards{
+    margin-top: 50px;
+  }
 
-    img {
-      width: 180px;
-      height: 160px;
-      object-fit: cover;
-    }
-
-    position: relative;
+  img {
+    width: 180px;
+    height: 160px;
+    object-fit: cover;
   }
 
   &__line {

@@ -1,13 +1,15 @@
 .version {
 
-
+  .cards{
+    margin-top: 60px;
+  }
   .card_column{
     width: 650px;
   }
 
   &__offset {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 50px;
   }
 
 

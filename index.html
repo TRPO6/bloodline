@@ -94,8 +94,8 @@
               <span class="version__line"></span>
               <div class="version__title">Нужна кровь</div>
               <div class="version__describe">
-                Хотите сделать доброе дело и спасти жизнь? <br />
-                Узнайте больше о донорстве крови для животных!
+                Нужна срочно кровь для вашего питомца? <br />
+                Узнайте как получить необходимую помощь!
               </div>
               <div class="version__wrapper-btn">
                 <a href="#" class="btn version__btn">Подробнее</a>
@@ -122,11 +122,11 @@
       <section class="important">
         <div class="container">
           <h2 class="title">
-            Почему ваш питомец может стать донором и помочь другим животным?
+            Почему ваш питомец может стать <br> донором и помочь другим животным?
           </h2>
 
           <div class="cards">
-            <div class="important__column">
+            <div class="card card_column">
             <picture>
               <img src="/asset/img/important/heart.jpg" alt="важно" />
             </picture>
@@ -138,7 +138,7 @@
                 заболеваний.
               </div>
             </div>
-            <div class="important__column">
+            <div class="card card_column">
             <picture>
               <img src="/asset/img/important/text.jpg" alt="важный текст"/>
             </picture>
@@ -197,14 +197,56 @@
       <section class="usful_info">
         <div class="container">
           <h2 class="title">Полезная информация</h2>
+          <div class="cards">
+            <div class="card card_column">
+              <ul class="usful_info__menu" id="usful_info__menu">
+                <li data-text="text_1"><a class="usful_info__item">Почему важно сдавать кровь?</a></li>
+                <li data-text="У собак донация занимает примерно 30-40 минут, а у кошек 15-20 минут. Кровь у животных берется без наркоза, т.к. это абсолютно безболезненная процедура."><a class="usful_info__item">Сколько по времени занимает донация?</a></li>
+                <li data-text="text_3"><a class="usful_info__item">Нужно держать питомца во время донации?</a></li>
+                <li data-text="text_4"><a class="usful_info__item">Безопасно ли это?</a></li>
+                <li data-text="text_5"><a class="usful_info__item">Кровь берётся под наркозом?</a></li>
+                <li data-text="text_6"><a class="usful_info__item">Как часто сдаётся донорская кровь?</a></li>
+                <li data-text="text_7"><a class="usful_info__item">Как вы находите доноров?</a></li>
+                <li data-text="text_8"><a class="usful_info__item">Требуется ли подготовка питомца к донации?</a></li>
+                <li data-text="text_9"><a class="usful_info__item">За какое время у питомца восполняется кровь?</a></li>
+              </ul>
+            </div>
+            <div class="usful_info__text">
+              <div class="usful_info__text__title" id="changeTitle"></div>
+              <div class="usful_info__text__describe" id="changeText"></div>
+            </div>
+            <div class="usful_info__cat">
+              <img src="/asset/img/usful_info/cat.png">
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="about_us">
         <div class="container">
-          <h2 class="title">О нас</h2>
+            <div class="card about_us__offset">
+                <div class="cards card_column">
+                    <h2 class="title">О нас</h2>
+                    <div class="about_us__describe">Сайт <font face="Imperial Script" size="6">«Bloodline»</font> позволяет владельцам питомцев размещать обращения о необходимости донорской крови, быстро распространяя их по соцсетям и объединяя людей для спасения животных в критических ситуациях.</div>
+                    <img src="/asset/img/about_us/logo.svg">
+                </div>
+                <div class="about_us__box">
+                    <h2 class="title">Получите бесплатную консультацию</h2>
+                    <div class="about_us__tel">
+                      <input type="tel" class="about_us__tel__phone" id="phoneInput" placeholder="Телефон" maxlength="18" pattern="\d*">
+                    </div>
+                    <div class="about_us__check-policy">
+                        <input id="policy" type="checkbox" class="about_us__checkbox">
+                        <label class="about_us__describe" for="policy">Согласен на обработку персональных <br> данных</label>
+                    </div>
+                    <div class="about_us__wrapper-btn">
+                        <a href="#" class="btn about_us__btn" id="about_us__btn">Получить консультацию</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
+
     </main>
     <footer class="footer">
       <div class="container">
@@ -268,5 +310,6 @@
         </div>
       </div>
     </footer>
+    <script src="/asset/js/script.js"></script>
   </body>
 </html>

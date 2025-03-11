@@ -1,5 +1,6 @@
 #menu_toggle {
   opacity: 0;
+  display: block;
 }
 
 #menu_toggle:checked + .menu_btn > span {
@@ -23,8 +24,6 @@
 .menu_btn {
   position: relative;
   float: right;
-  top: 38px;
-  right: 81px;
   width: 48px;
   height: 48px;
   cursor: pointer;
@@ -38,14 +37,20 @@
   width: 43px;
   height: 2px;
   background-color: $white;
-  transition-duration: 0.25s;
+  transition-duration: .25s;
 }
+
+.menu_btn > span {
+  content: '';
+  top: 22px;
+}
+
 .menu_btn > span::before {
-  content: "";
+  content: '';
   top: -11px;
 }
 .menu_btn > span::after {
-  content: "";
+  content: '';
   top: 11px;
 }
 .menu_box {
@@ -58,22 +63,22 @@
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  background-color: $dark;
-  transition-duration: 0.25s;
+  background-color: #18171C;
+  transition-duration: .25s;
   z-index: 1;
 }
 .menu_item {
   display: block;
   cursor: pointer;
   text-align: center;
-  padding: 28px 22px;
+  padding-top: 28px;
   color: $white;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
-  transition-duration: 0.25s;
+  transition-duration: .25s;
 }
 
-.menu_item:hover {
+.menu_item:hover{
   text-decoration: underline;
 }

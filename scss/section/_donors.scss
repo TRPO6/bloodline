@@ -1,7 +1,6 @@
 .donors {
-  &__photo {
-    // display: flex;
-    // flex-direction: row;
+  .container{
+    padding-bottom: 0px;
   }
 
   img {
@@ -15,6 +14,7 @@
   }
 
   &__box {
+    margin-top: 80px;
     text-align: center;
     width: 335px;
     height: 300px;
