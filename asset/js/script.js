@@ -109,7 +109,7 @@ if(section_about_us){
             if (event.key === 'Backspace' || event.key === 'Delete') {
                 let value = this.value.replace(/\D/g, '');
                 if (value.length > 0) {
-                    this.value = value.substring(0, value.length - 1);
+                    this.value = value.substring(0, value.length);
                 }
                 updateButtonState();
             }
