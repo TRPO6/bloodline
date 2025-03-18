@@ -25,9 +25,6 @@ body {
   overflow: hidden;
 }
 
-.burger_click{
-  overflow: hidden;
-}
 
 .container {
   max-width: 1440px;
@@ -86,7 +83,7 @@ body {
 .btn.disabled{
   opacity: 0.5;
 
-  cursor: not-allowed;
+  cursor: default;
 
   pointer-events: none;
 }
