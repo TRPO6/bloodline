@@ -10,10 +10,8 @@
     justify-content: space-between;
     align-items: center;
   }
-}
 
-.front {
-  .header {
+  &_front{
     .container {
       background-image: url(../asset/img/hero/background.jpg);
       background-position: top center;
