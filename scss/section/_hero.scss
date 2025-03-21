@@ -1,8 +1,8 @@
 .hero {
   .container {
-    height: 744px;
-    background-image: url(../../asset/img/hero/background.jpg);
-    background-position: bottom center;
+    height: 588px;
+    background-image: url(../../asset/img/hero/background-mobile.jpg);
+    background-position: center -102px;
     position: relative;
   }
 
@@ -37,23 +37,41 @@
   }
 }
 
+@media(min-width:320px){
+  .hero {
+    .container {
+      background-size: cover;
+    }
+  }
+}
+
 
 @media(max-width:768px){
 
 }
 
 @media (min-width: 768px) {
-.hero {
-  &__wrapper {
+  .hero {
+    .container {
+      height: 744px;
+      background-image: url(../../asset/img/hero/background-tablet.jpg);
+    }
 
+    &__wrapper {
+
+    }
   }
-}
+
+  
 
 }
 
 @media (min-width: 1024px) {
   .hero {
     .container {
+      background-image: url(../../asset/img/hero/background.jpg);
+      background-size: unset;
+      background-position: bottom center;
       height: 881px;
     }
     &__wrapper {
