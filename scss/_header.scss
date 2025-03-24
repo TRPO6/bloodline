@@ -7,7 +7,6 @@
       gap: 10px;
       align-items: center;
       z-index: 2;
-
       &__site-name {
         font-size: 24px;
         line-height: 1;
@@ -28,6 +27,7 @@
       background-image: url(../asset/img/hero/background-mobile.jpg);
       background-position: top center;
       background-repeat: no-repeat;
+      background-size: cover;
       
     }
   }
@@ -37,7 +37,7 @@
   .header {
     &_front{
       .container {
-        background-size: cover;
+        
       }
     }
   }
