@@ -1,15 +1,20 @@
 .version {
 
   .cards{
-    margin-top: 60px;
-  }
-  .card_column{
-    width: 650px;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 30px;
   }
 
-  &__offset {
-    padding-top: 10px;
-    padding-bottom: 50px;
+  &__img{
+    &-rose{
+      width: 124px;
+      height: auto;
+    }
+    &-tube{
+      width: 107px;
+      height: auto;
+    }
   }
 
 
@@ -26,52 +31,26 @@
       height: 170px;
       object-fit: cover;
     }
-
-    &__text {
-      width: 940px;
-      height: 290px;
-      background-image: url(../../asset/img/version/vector.svg);
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      &__describe {
-        text-align: left;
-        font-size: 24px;
-        line-height: 35px;
-        padding-right: 120px;
-        padding-bottom: 40px;
-        letter-spacing: 1.08px;
-        font-family: "Jost", sans-serif;
-      }
-    }
-
-    &__cat {
-      padding-top: 125px;
-      width: 290px;
-      height: 250px;
-    }
   }
 
   &__line {
     height: 5px;
-    width: 210px;
+    width: 123px;
     background: $primary;
     display: block;
   }
 
   &__title {
     color: $primary;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 150%;
     font-weight: 1000;
   }
 
   &__describe {
     text-align: center;
-    font-size: 18px;
-    line-height: 23px;
-    letter-spacing: 1.08px;
+    font-size: 16px;
+    line-height: normal;
   }
 
   &__wrapper-btn {
@@ -80,8 +59,53 @@
     justify-content: center;
   }
 
-  //   &__btn {
-  //     width: 207px;
-  //     height: 58px;
-  //   }
+}
+
+
+@media (min-width: 768px) {
+  .version {
+
+    .cards{
+      flex-direction: row;
+    }
+
+    &__line {
+      width: 210px;
+    }
+
+    &__title {
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    &__describe {
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: 1.08px;
+    }
+
+    &__img{
+      &-rose{
+        width: unset;
+        height: auto;
+      }
+      &-tube{
+        width: unset;
+        height: auto;
+      }
+    }
+
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .version {
+    .cards{
+      margin-top: 60px;
+    }
+    .card_column{
+      width: 650px;
+    }
+  }
 }
