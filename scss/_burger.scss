@@ -1,6 +1,5 @@
 #menu_toggle {
-  opacity: 0;
-  display: block;
+  display: none;
 }
 
 #menu_toggle:checked + .menu_btn > span {
