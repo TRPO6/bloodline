@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bloodline</title>
+    <link rel="icon" type="image/x-icon" href="./asset/favicon.ico">
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +18,7 @@
   <body>
     <header class="header header_front">
       <div class="container">
-        <a href="./" class="logo">
+        <a href="/" class="logo">
           <div class="logo__img">
             <picture>
               <img src="./asset/img/logo.svg" alt="логотип" />
@@ -33,22 +34,31 @@
           </label>
           <ul class="menu_box">
             <li><a class="menu_item" href="/">Главная</a></li>
-            <li><a class="menu_item" href="#">О нас</a></li>
+            
             <li>
-              <a class="menu_item" href="/info-donor">Информация о донорстве</a>
+              <a class="menu_item" href="./info-donor">Информация о донорстве</a>
             </li>
             <li>
-              <a class="menu_item" href="/who-donar"
-                >Кто может стать донором?</a
-              >
+               <span class="menu__title">Кто может стать донором?</span>
+
+              <ul>
+                <li>
+                  <a href="./donar-dog" class="menu_item">Собаки</a>
+                </li>
+                <li>
+                  <a href="./donar-cat" class="menu_item">Кошки</a>
+                </li>
+                <li>
+                  <a href="./donar-rodents" class="menu_item">Грызуны</a>
+                </li>
+                <li>
+                  <a href="./donar-birds" class="menu_item">Птицы</a>
+                </li>
+              </ul>
             </li>
-            <li><a class="menu_item" href="#">Где сдать кровь?</a></li>
-            <li><a class="menu_item" href="#">Где достать кровь?</a></li>
-            <li><a class="menu_item" href="#">Как мы ищем кровь?</a></li>
-            <li><a class="menu_item" href="#">Часто задаваемые вопросы</a></li>
-            <li>
-              <a class="menu_item" href="#">Социальные сети и контакты</a>
-            </li>
+            <li><a class="menu_item" href="./get-where-blood">Где сдать/получить кровь</a></li>
+            <li><a class="menu_item" href="./how-blood">Как мы ищем кровь?</a></li>
+            <li><a class="menu_item" href="./about">О нас / Контакты</a></li>
           </ul>
         </div>
       </div>
@@ -64,8 +74,8 @@
             </div>
 
             <div class="hero__wrapper-btn">
-              <a href="#" class="btn hero__btn">Стать донором</a>
-              <a href="#" class="btn hero__btn">Нужна кровь</a>
+              <a href="./forms-become" class="btn hero__btn">Стать донором</a>
+              <a href="./forms-need" class="btn hero__btn">Нужна кровь</a>
             </div>
           </div>
         </div>
@@ -91,7 +101,7 @@
                 стать героем!
               </div>
               <div class="version__wrapper-btn">
-                <a href="#" class="btn version__btn">Подробнее</a>
+                <a href="./forms-become" class="btn version__btn">Подробнее</a>
               </div>
             </div>
             <div class="card card_column">
@@ -110,7 +120,7 @@
                 вашего любимца.
               </div>
               <div class="version__wrapper-btn">
-                <a href="#" class="btn version__btn">Подробнее</a>
+                <a href="./forms-need" class="btn version__btn">Подробнее</a>
               </div>
             </div>
           </div>
@@ -181,7 +191,7 @@
                 <img src="/asset/img/donors/dog.png" alt="донор собака" />
               </picture>
               <div class="donors__wrapper-btn">
-                <a href="#" class="btn donors__btn">Собака</a>
+                <a href="./donar-dog" class="btn donors__btn">Собака</a>
               </div>
             </div>
             <div class="donors__box">
@@ -189,7 +199,7 @@
                 <img src="/asset/img/donors/cat.png" alt="донор кошка" />
               </picture>
               <div class="donors__wrapper-btn">
-                <a href="#" class="btn donors__btn">Кошка</a>
+                <a href="./donar-cat" class="btn donors__btn">Кошка</a>
               </div>
             </div>
             <div class="donors__box">
@@ -197,7 +207,7 @@
                 <img src="/asset/img/donors/rodent.png" alt="донор грызуны" />
               </picture>
               <div class="donors__wrapper-btn">
-                <a href="#" class="btn donors__btn">Грызуны</a>
+                <a href="./donar-rodents" class="btn donors__btn">Грызуны</a>
               </div>
             </div>
             <div class="donors__box">
@@ -205,7 +215,7 @@
                 <img src="/asset/img/donors/birds.png" alt="донор птицы" />
               </picture>
               <div class="donors__wrapper-btn">
-                <a href="#" class="btn donors__btn">Птицы</a>
+                <a href="./donar-birds" class="btn donors__btn">Птицы</a>
               </div>
             </div>
           </div>
@@ -308,7 +318,7 @@
       </section>
 
       
-      <section class="about-us">
+      <section id="about-us" class="about-us">
         <div class="container">
           <div class="cards">
             <div class="cards card_column">
@@ -404,7 +414,7 @@
         </div>
         <div class="footer__info">
           <div>При поддержке гранта «Умный Сон»</div>
-          <div>©2024г.</div>
+          <div>©2024 - 2025 г.</div>
         </div>
       </div>
     </footer>
