@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .active {
   color: $primary;
 }
@@ -18,6 +22,10 @@ body {
   font-style: normal;
 
   background-color: $dark;
+}
+
+h2{
+  margin: 0;
 }
 
 .burger_click{
@@ -41,11 +49,8 @@ body {
 
 .main {
   min-height: calc(100vh - 513px);
-
-  section {
-    .container {
-      background-color: $white;
-    }
+  .container {
+    background-color: $white;
   }
 }
 
@@ -73,6 +78,7 @@ body {
   line-height: 25px;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
 }
 
 .btn.disabled{
@@ -106,6 +112,14 @@ body {
 
 .title-red {
   color: $primary;
+}
+
+.highlighting-text{
+  color: $highlightingText;
+  font-weight: 1000;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  padding-bottom: 18px;
 }
 
 .flex-end{
@@ -150,6 +164,36 @@ body {
   font-family: "Imperial Script", cursive;
   font-size: 24px;
   letter-spacing: 0.72px;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.col{
+
+}
+
+p{
+  margin: 0;
+}
+
+.indent{
+  &-basic{
+    margin-bottom: 18px;
+  }
+  &-big{
+    margin-bottom: 40px;
+  }
+}
+
+.ul{
+  &-basic{
+    margin: 0;
+    padding-bottom: 30px;
+  }
 }
 
 
@@ -212,6 +256,21 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+  }
+
+  .row{
+    // display: flex;
+    // justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .indent{
+    &-basic{
+      margin-bottom: 18px;
+    }
+    &-big{
+      margin-bottom: 70px;
+    }
   }
 
 
