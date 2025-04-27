@@ -1,0 +1,104 @@
+/* Базовые стили для всех устройств */
+.how_blood_guide {
+  padding-bottom: 70px;
+}
+
+.how_blood_title {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  letter-spacing: .54px;
+  line-height: normal;
+}
+
+.how_blood_criteria {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-bottom: 70px;
+  //padding-right: 59px;
+  line-height: 100%;
+}
+
+.how_blood_criteria .highlighting-text {
+  margin: -18px 0;
+}
+
+.how_blood_image_wrapper img {
+  width: 640px;
+  height: auto;
+}
+
+/* Стили для 2K экранов (2560px и выше) */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .how_blood_guide, .how_blood_title {
+    width: 640px;
+  }
+}
+
+/* Стили для iPad mini (768px) */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  
+  .col {
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .how_blood_title {
+    width: 100%;
+    padding: 0 20px 40px;
+  }
+  
+  .how_blood_guide {
+    width: 100%;
+    padding: 0 20px 40px;
+  }
+  
+  .how_blood_criteria {
+    padding-right: 0;
+    gap: 12px;
+    padding-bottom: 50px;
+  }
+  
+  .how_blood_image_wrapper {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Стили для iPhone SE (375px и меньше) */
+@media (max-width: 375px) {
+  .how_blood_title {
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+  }
+  
+  .how_blood_guide, 
+  .how_blood_criteria {
+    padding-bottom: 30px;
+    width: 100%;
+  }
+  
+  .how_blood_criteria {
+    gap: 8px;
+  }
+  
+  .how_blood_criteria .highlighting-text {
+    font-size: 1.2rem;
+    margin: -8px 0;
+  }
+  
+  .ul-basic {
+    padding-left: 20px;
+  }
+  
+  .how_blood_image_wrapper {
+    margin: 20px 0;
+  }
+}
