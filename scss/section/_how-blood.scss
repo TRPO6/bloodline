@@ -13,7 +13,7 @@
       max-width: 100%;
       height: auto;
       display: block;
-      margin: 0 auto; // центрирует изображение
+      margin: 0 auto;
     }
 
     @media (max-width: 768px) {
@@ -61,9 +61,9 @@
         width: 1150px;
         height: 740px;
         background-image: url("../../asset/img/how_blood/how_bird.png");
-        background-repeat: no-repeat;  // Добавлено
-        background-position: center;   // Добавлено
-        background-size: contain;     // Добавлено
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
         position: relative;
         
         &_text {
@@ -75,8 +75,8 @@
           left: 80px;
           top: 85px;
           line-height: 1.2;
-          margin: 0;                  // Добавлено
-          padding: 0;                 // Добавлено
+          margin: 0;
+          padding: 0;
         }
       }
     }
