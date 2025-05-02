@@ -2,6 +2,7 @@
       display: none;
 }
 
+//Минимальный
 @media (min-width: 768px) {
     .fact{
         display: block;
@@ -29,6 +30,7 @@
     }
 }
 
+//Средний
 @media (min-width: 1024px) {
 
     .fact{
@@ -52,7 +54,7 @@
 
 }
 
-
+//Полностью раскрыт
 @media (min-width: 1320px) {
 
     .fact{

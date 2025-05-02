@@ -1,0 +1,81 @@
+.about{
+    .title{
+        font-size: clamp(24px, 4vw, 48px);
+        margin-bottom: 20px;
+        text-align: center; // если нужно
+        margin: 0 0 15px 0;
+    }
+    }
+
+    .about-image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; // центрирует изображение
+      }
+
+      @media (max-width: 768px) {
+        .about{
+            width: 700px;
+            height: 284px;
+            &_text{
+                    position: absolute;
+                }
+            }
+        }
+
+@media (min-width: 768px) {
+    .about{
+        display: block;
+        &__wrapper{
+            width: 700px;
+            height: 284px;
+            &_text{
+                position: absolute;
+            }
+        }
+    }
+  }
+
+@media (max-width: 1280px) {
+    .about{
+        &__wrapper{
+            width: 1024px;
+
+            &_text{
+                position: absolute;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1280px) {
+
+    .about {
+        display: block;
+        
+        &__wrapper {
+          width: 1150px;
+          height: 740px;
+          background-image: url("../../asset/img/about/text_bird.png");
+          background-repeat: no-repeat;  // Добавлено
+          background-position: center;   // Добавлено
+          background-size: contain;     // Добавлено
+          position: relative;
+          
+          &_text {
+            position: absolute;
+            font-family: "Jost", sans-serif;
+            letter-spacing: 0.72px;
+            width: 1000px;
+            font-size: 24px;
+            left: 80px;
+            top: 85px;
+            line-height: 1.2;
+            margin: 0;                  // Добавлено
+            padding: 0;                 // Добавлено
+          }
+        }
+      }
+    }
