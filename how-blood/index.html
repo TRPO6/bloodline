@@ -1,11 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Как мы ищем кровь?</h1>
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />g
+    <title>Bloodline</title>
+    <link rel="icon" type="image/x-icon" href="../asset/favicon.ico">
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../fonts/impact/stylesheet.css" />
+  </head>
+  <body class="page-how_blood">
+    <header class="header">
+      <div class="container">
+        <a href="../" class="logo">
+          <div class="logo__img">
+            <picture>
+              <img src="../asset/img/logo.svg" alt="логотип" />
+            </picture>
+          </div>
+          <div class="logo__site-name">Bloodline</div>
+        </a>
+
+        <div class="hamburger-menu">
+          <input id="menu_toggle" type="checkbox" />
+          <label class="menu_btn" for="menu_toggle">
+            <span></span>
+          </label>
+          <ul class="menu_box">
+            <li><a class="menu_item" href="/">Главная</a></li>
+            
+            <li>
+              <a class="menu_item" href="/info-donor">Информация о донорстве</a>
+            </li>
+            <li>
+               <span class="menu__title">Кто может стать донором?</span>
+
+              <ul>
+                <li>
+                  <a href="/donar-dog" class="menu_item">Собаки</a>
+                </li>
+                <li>
+                  <a href="/donar-cat" class="menu_item">Кошки</a>
+                </li>
+                <li>
+                  <a href="/donar-rodents" class="menu_item">Грызуны</a>
+                </li>
+                <li>
+                  <a href="/donar-birds" class="menu_item">Птицы</a>
+                </li>
+              </ul>
+            </li>
+            <li><a class="menu_item" href="/get-where-blood">Где сдать/получить кровь</a></li>
+            <li><a class="menu_item" href="/how-blood">Как мы ищем кровь?</a></li>
+            <li><a class="menu_item" href="/about">О нас / Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+
+        <!-- Имя страницы и вводный текст -->
+        <div class="how_blood_content row">
+          <div class="col">
+            <h1 class="how_blood-title">Как мы ищем донорскую кровь для вашего питомца</h1>
+            <div class="indent-big">
+              <div class="highlighting-text">Поиск донорской крови: как это работает?</div>
+              <p class="indent-basic">Когда вашему питомцу требуется переливание крови, каждая минута имеет значение. Мы делаем всё возможное, чтобы найти подходящего донора как можно быстрее. Вот как мы организуем поиск донорской крови:</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Про работу с клиниками -->
+        <div class="how_blood_content row">
+          <div class="col">
+            <div class="highlighting-text">Ветеринарные клиники и больницы</div>
+            <p class="indent-basic"class="indent-basic">Мы сотрудничаем с ведущими ветеринарными клиниками и больницами, где ведется учет доноров животных. Это позволяет нам оперативно проверить наличие необходимой группы крови и организовать ее получение.</p>
+            
+            <p class="indent-basic"><b>Что мы делаем:</b></p>
+            <ul class="ul-basic">
+              <li>Проверяем базы данных клиник на наличие подходящих доноров.</li>
+              <li>Предоставляем вам контактную информацию выбранной клиники или больницы.</li>
+              <li>Помогаем связаться с ними напрямую или берем организацию связи на себя.</li>
+            </ul>
+
+            <p class="indent-basic"><b>Ваше участие:</b></p>
+            <ul class="ul-basic">
+              <li>Вы можете связаться с клиникой напрямую, чтобы уточнить наличие крови и условия получения.</li>
+              <li>Мы всегда готовы помочь вам с ответами на вопросы или организацией процесса.</li>
+            </ul>
+          </div>
+
+          <!-- Блок с изображением -->
+          <div class="col">
+            <div class="image-wrapper">
+              <img src="../asset/img/how-blood/animal_hospital.jpg" alt="Госпиталь" class="how_blood-image">
+            </div>
+          </div>
+        </div>
+
+        <!-- Про работу с соц. сетями -->
+        <div class="how_blood_content row">
+          <div class="col">
+            <div class="highlighting-text">Социальные сети: быстрое распространение информации</div>
+            <p class="indent-basic">Социальные сети — это мощный инструмент, который помогает нам быстро находить доноров среди владельцев животных. Мы публикуем объявления в популярных сообществах и группах для владельцев питомцев.</p>
+            
+            <p class="indent-basic"><b>Что мы делаем:</b></p>
+            <ul class="ul-basic">
+                <li>Размещаем объявления с подробным описанием ситуации и требованиями к донору.</li>
+                <li>Предоставляем контактную информацию владельцев доноров, чтобы вы могли связаться с ними напрямую.</li>
+                <li>Помогаем координировать процесс и отвечаем на ваши вопросы.</li>
+            </ul>
+
+            <p class="indent-basic"><b>Ваше участие:</b></p>
+            <ul class="ul-basic">
+                <li>Вы можете связаться с владельцем донора напрямую, чтобы уточнить детали.</li>
+                <li>Мы всегда на связи, если вам нужна помощь в организации встречи или согласовании условий.</li>
+            </ul>
+          </div>
+          
+          <!-- Блок с изображением -->
+          <div class="col">
+            <div class="image-wrapper">
+              <img src="../asset/img/how-blood/animals_and_apps.jpg" alt="Животные и приложения" class="how_blood-image">
+            </div>
+          </div>
+        </div>
+
+        <!-- Часть с птицей -->
+        <div class="how_blood__info">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col">
+                <div class="highlighting-text">Наша цель: спасение жизни вашего питомца</div>
+                <p class="indent-basic">Мы понимаем, насколько важно найти донора быстро и эффективно. Поэтому все наши усилия направлены на то, чтобы обеспечить вам максимально удобный доступ к информации и поддержку на каждом этапе:</p>
+                <ul class="ul-basic">
+                  <li><b>Максимальная скорость:</b> мы используем все доступные ресурсы, чтобы найти донора как можно быстрее.</li>
+                  <li><b>Прозрачность:</b> вы всегда знаете, где и как идет поиск, и можете отслеживать его статус.</li>
+                  <li><b>Поддержка:</b> наши специалисты всегда готовы помочь вам с вопросами, организацией связи или консультацией.</li>
+                </ul>
+              </div>
+              <div class="col">
+                <div class="highlighting-text">Как начать поиск донора?</div>
+                <p class="indent-basic">Если вашему питомцу требуется переливание крови, заполните форму ниже, и мы начнем поиск подходящего донора немедленно.</p>
+                <div class="wrapper-btn">
+                  <a href="/forms-become" class="btn">Нужна кровь</a>
+                  <a href="/forms-need" class="btn">Записаться на консультацию</a>
+                </div>
+              </div>
+            </div>
+            <div class="how_blood__info-ico">
+              <img src="../asset/img/how-blood/how_bird.png" alt="">
+            </div>
+          </div>
+        </div>  
+           
+      </div>
+    </main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__data">
+            <div class="footer__contacts">
+              <div class="footer__contacts-title">Контактные данные:</div>
+              <div class="footer__contacts-item">
+                <div class="footer__contacts-img">
+                  <picture>
+                    <img src="../asset/img/footer/phone.svg" alt="Phone" />
+                  </picture>
+                </div>
+                <div class="footer__contacts-data">
+                  <a href="tel:86334535633"> 8(633)453-56-33 </a>
+                </div>
+              </div>
+
+              <div class="footer__contacts-item">
+                <div class="footer__contacts-img">
+                  <picture>
+                    <img src="../asset/img/footer/email.svg" alt="Mail" />
+                  </picture>
+                </div>
+                <div class="footer__contacts-data">
+                  <a href="mailto:vetclikpet@mail.ru"> vetclikpet@mail.ru </a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__social">
+              <a href="#" target="_blank" class="social-icon">
+                <picture>
+                  <img src="../asset/img/footer/telegram.svg" alt="Telegram" />
+                </picture>
+              </a>
+              <a href="#" target="_blank" class="social-icon">
+                <picture>
+                  <img src="../asset/img/footer/VK.svg" alt="VK" />
+                </picture>
+              </a>
+              <a href="#" target="_blank" class="social-icon">
+                <picture>
+                  <img src="../asset/img/footer/instagram.svg" alt="Instagram" />
+                </picture>
+              </a>
+            </div>
+            
+          </div>
+
+          <a href="../" class="logo">
+            <div class="logo__img">
+              <picture>
+                <img src="../asset/img/logo.svg" alt="логотип" />
+              </picture>
+            </div>
+            <div class="logo__site-name">Bloodline</div>
+          </a>
+        </div>
+        <div class="footer__info">
+          <div>При поддержке гранта «Умный Сон»</div>
+          <div>©2024 - 2025 г.</div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="../asset/js/script.js"></script>
+  </body>
 </html>

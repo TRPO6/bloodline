@@ -63,6 +63,20 @@
             display: none;
         }
     }
+
+    &-how_blood{
+        .how_blood__info-ico{
+            display: none;
+        }
+
+        .wrapper-btn {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            gap: 26px;
+            flex-wrap: nowrap;
+        }
+    }
 }
 
 .question-answer{
@@ -166,6 +180,22 @@
 
         }
 
+        &-how_blood {
+            .how_blood_content {
+                .col {
+                    flex-shrink: 0;
+                    width: 48%;
+                }
+            }
+
+            .how_blood__info{
+                .col{
+                    width: 48%;
+                    
+                }
+            }
+        }
+
 
 
         &-form{
@@ -233,6 +263,30 @@
                     }
 
                     .about__info-ico{
+                        position: absolute;
+                        right: 20px;
+                        bottom: -20px;
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        &-how_blood{
+            .how_blood__info{
+                .wrapper{
+                    position: relative;
+                    background-image: url(../asset/img/how-blood/chat_desctop.svg);
+                    width: 100%;
+                    height: 600px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+
+                    .row{
+                        padding: 60px 150px;
+                    }
+
+                    .how_blood__info-ico{
                         position: absolute;
                         right: 20px;
                         bottom: -20px;

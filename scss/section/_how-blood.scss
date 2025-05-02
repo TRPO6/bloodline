@@ -1,0 +1,83 @@
+.how_blood{
+  .title{
+    font-family: "Impact", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: .54px;
+    line-height: normal;
+    text-align: start;
+  }
+  }
+
+  .image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 768px) {
+      .how_blood{
+          width: 700px;
+          height: 284px;
+          &_text{
+                  position: absolute;
+              }
+          }
+      }
+
+@media (min-width: 768px) {
+  .how_blood{
+    display: block;
+    &__wrapper{
+      width: 700px;
+      height: 284px;
+      &_text{
+        position: absolute;
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .how_blood{
+    &__wrapper{
+      width: 1024px;
+
+      &_text{
+        position: absolute;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1280px) {
+
+  .how_blood {
+      display: block;
+      
+      &__wrapper {
+        width: 1150px;
+        height: 740px;
+        background-image: url("../../asset/img/how_blood/how_bird.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        
+        &_text {
+          position: absolute;
+          font-family: "Jost", sans-serif;
+          letter-spacing: 0.72px;
+          width: 1000px;
+          font-size: 24px;
+          left: 80px;
+          top: 85px;
+          line-height: 1.2;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
