@@ -1,0 +1,62 @@
+[
+    {
+      "fio": "вапвапва",
+      "telefon": "+78052",
+      "email": "",
+      "mestonahozhdenie_gorod_region": "",
+      "vid_zhivotnogo_sobaka_koshka_i_t_d": "",
+      "poroda": "",
+      "klichka": "",
+      "vozrast": "",
+      "ves": "",
+      "gruppa_krovi_esli_izvestno": "",
+      "nalichie_privivok_i_zdorovya_ukazhite_osnovnye_momenty": "",
+      "dopolnitelnyy_kommentariy": "апрпарап прапрап апрапр",
+      "ya_soglasen_na_na_obrabotku_moih_personalnyh_dannyh_v_sootvetstv": "1"
+    },
+    {
+      "fio": "Иванова Мария Сергеевна",
+      "telefon": "+7 (916) 123-45-67",
+      "email": "maria.ivanova@example.com",
+      "mestonahozhdenie_gorod_region": "Саратов, Россия",
+      "vid_zhivotnogo_sobaka_koshka_i_t_d": "Кошка",
+      "poroda": "Британская короткошёрстная",
+      "klichka": "Луна",
+      "vozrast": "3 года",
+      "ves": "4.2 кг",
+      "gruppa_krovi_esli_izvestno": "A",
+      "nalichie_privivok_i_zdorovya_ukazhite_osnovnye_momenty": "Все основные прививки сделаны (бешенство, кальцивироз, панлейкопения, ринотрахеит). Здорова, стерилизована, аллергий нет.",
+      "dopolnitelnyy_kommentariy": "",
+      "ya_soglasen_na_na_obrabotku_moih_personalnyh_dannyh_v_sootvetstv": "1"
+    },
+    {
+      "fio": "Петров Алексей Дмитриевич",
+      "telefon": "+7 (905) 234-56-78",
+      "email": "aleksey.petrov@mail.ru",
+      "mestonahozhdenie_gorod_region": "Саратов, Саратовская область",
+      "vid_zhivotnogo_sobaka_koshka_i_t_d": "Собака",
+      "poroda": "Лабрадор ретривер",
+      "klichka": "Ральф",
+      "vozrast": "5 лет",
+      "ves": "28 кг",
+      "gruppa_krovi_esli_izvestno": "DEA 1.1 положительная",
+      "nalichie_privivok_i_zdorovya_ukazhite_osnovnye_momenty": "Привит по возрасту (от бешенства, чумы, парвовируса). В хорошем физическом состоянии, активный, кастрирован.",
+      "dopolnitelnyy_kommentariy": "",
+      "ya_soglasen_na_na_obrabotku_moih_personalnyh_dannyh_v_sootvetstv": "1"
+    },
+    {
+      "fio": "Сидорова Елена Валерьевна",
+      "telefon": "+7 (929) 765-43-21",
+      "email": "e.sidorova@gmail.com",
+      "mestonahozhdenie_gorod_region": "Саратов, Саратовская область",
+      "vid_zhivotnogo_sobaka_koshka_i_t_d": "собака",
+      "poroda": "Шпиц (померанский)",
+      "klichka": "Буся",
+      "vozrast": "1 год 4 месяца",
+      "ves": "2.1 кг",
+      "gruppa_krovi_esli_izvestno": "Неизвестна",
+      "nalichie_privivok_i_zdorovya_ukazhite_osnovnye_momenty": "Все прививки по возрасту сделаны (в том числе от бешенства и комплексная вакцинация). Здорова, стерилизована, активная.",
+      "dopolnitelnyy_kommentariy": "",
+      "ya_soglasen_na_na_obrabotku_moih_personalnyh_dannyh_v_sootvetstv": "0"
+    }
+  ]
